@@ -311,3 +311,9 @@ __marimo__/
 
 # temporary folders
 temporaries/
+
+# KiCAD
+.history/
+hardware/electronics/**/*.backup
+hardware/electronics/**/sym-lib-table
+hardware/electronics/**/fp-lib-table

@@ -1,0 +1,1033 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a81b9a3a-4ea1-4464-987c-9041f4650df5")
+	(paper "User" 132.0038 76.2)
+	(title_block
+		(title "DRV8833 Motor Driver Breakout Board Connections")
+	)
+	(lib_symbols
+		(symbol "DRV8833_MOTOR_DRIVER_BREAKOUT_MODULE:DRV8833_Motor_Driver_Breakout"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 13.208 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DRV8833_Motor_Driver_Breakout"
+				(at 0 10.414 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DRV8833_Motor_Driver_Breakout_0_1"
+				(rectangle
+					(start -7.62 8.89)
+					(end 7.62 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 6.35 0)
+					(length 2.54)
+					(name "IN4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "IN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 2.54)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 6.35 180)
+					(length 2.54)
+					(name "EEP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "OUT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "OUT4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "ULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor:Motor_DC_ALT"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Motor_DC_ALT"
+				(at 2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DC Motor, alternative symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DC Motor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Motor_DC_ALT_0_0"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 2.032) (xy 1.27 2.032) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.302) (xy -1.27 0.508) (xy 0 -2.032) (xy 1.27 0.508) (xy 1.27 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -4.318) (xy -1.27 -5.08) (xy 1.27 -5.08) (xy 1.27 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.524)
+					(radius 2.9718)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_DC_ALT_0_1"
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_DC_ALT_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "DC 1:100 RR 150 RPM Motor"
+		(exclude_from_sim no)
+		(at 94.488 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "2cbc2d0c-3173-476c-9875-4a9b76e14de0")
+	)
+	(no_connect
+		(at 40.64 31.75)
+		(uuid "1c1224b2-0a0b-48c6-b23f-c8a9521be50b")
+	)
+	(no_connect
+		(at 60.96 41.91)
+		(uuid "5bf08d94-d8d9-4297-af56-25f33612aa76")
+	)
+	(no_connect
+		(at 40.64 29.21)
+		(uuid "af10a6e6-5fd4-482c-8efc-4ebedcbe57ad")
+	)
+	(no_connect
+		(at 60.96 36.83)
+		(uuid "d2f31698-bf60-48fc-9e1f-606267132ad4")
+	)
+	(no_connect
+		(at 60.96 39.37)
+		(uuid "eece5644-1c64-4f27-98e1-feb5d2d2ef43")
+	)
+	(wire
+		(pts
+			(xy 60.96 29.21) (xy 64.77 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6ffd4f-1628-49c8-810c-c436c8f7e4c4")
+	)
+	(wire
+		(pts
+			(xy 63.5 43.18) (xy 87.63 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fefd8a7-fcd7-4d22-8777-2dab06ff9d58")
+	)
+	(wire
+		(pts
+			(xy 66.04 39.37) (xy 71.12 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf3238e-b322-4ecf-b78a-60118656d6e1")
+	)
+	(wire
+		(pts
+			(xy 87.63 39.37) (xy 83.82 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36687693-c1b2-4ab2-83b0-5f6673868d17")
+	)
+	(wire
+		(pts
+			(xy 36.83 34.29) (xy 40.64 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618d0f0d-a1c0-446d-a014-2258b59df041")
+	)
+	(wire
+		(pts
+			(xy 36.83 39.37) (xy 40.64 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713150bb-db51-4315-b3a2-e21ebd27442e")
+	)
+	(wire
+		(pts
+			(xy 60.96 34.29) (xy 63.5 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0490610-93fa-45ab-b580-5a09034082cb")
+	)
+	(wire
+		(pts
+			(xy 60.96 31.75) (xy 66.04 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa80a3e-b543-4168-b271-3aeb5a66b845")
+	)
+	(wire
+		(pts
+			(xy 63.5 34.29) (xy 63.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb502a5e-74ac-43c8-8b34-49419dd36287")
+	)
+	(wire
+		(pts
+			(xy 36.83 41.91) (xy 40.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee580837-9a3f-4934-b9f6-1a4e97fa0f21")
+	)
+	(wire
+		(pts
+			(xy 87.63 43.18) (xy 87.63 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee66fb1a-d567-4c35-be79-3de5422cacdf")
+	)
+	(wire
+		(pts
+			(xy 36.83 36.83) (xy 40.64 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a20fef-17e6-4f84-a8dd-19f8f3598d62")
+	)
+	(wire
+		(pts
+			(xy 66.04 31.75) (xy 66.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf8484d-b4e7-41fa-9c31-0ccc7f6b85fb")
+	)
+	(global_label "MCU GPIO5"
+		(shape input)
+		(at 64.77 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6646422a-1fdf-4c9a-8a61-ed2689cb2210")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.4595 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DCM (Negative Terminal)"
+		(shape input)
+		(at 87.63 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81ea4656-f998-47d0-9910-7555df0669be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.4427 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MCU GPIO21"
+		(shape input)
+		(at 36.83 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e465faa-8fcb-46a3-a8f2-9391858f41bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.931 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND (Motor GND)"
+		(shape input)
+		(at 36.83 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97265d8a-bdcb-4a24-b670-dcd957054265")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.2139 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DCM (Positive Terminal)"
+		(shape input)
+		(at 66.04 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0681c96-e24a-4f62-a795-f44df8667741")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.1875 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BBC1 +OUT(5V)"
+		(shape input)
+		(at 36.83 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e27a7375-91b7-4460-ba99-11c3a574f46b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.6652 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MCU GPIO20"
+		(shape input)
+		(at 36.83 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb5e0431-2a2f-48bb-b4f9-b947ce02aa3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.931 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DRV8833_MOTOR_DRIVER_BREAKOUT_MODULE:DRV8833_Motor_Driver_Breakout")
+		(at 50.8 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cc379d8-cfa4-4751-9ef0-aca048673d36")
+		(property "Reference" "MD"
+			(at 50.8 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV8833 Motor Driver Breakout"
+			(at 50.8 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "491a6d12-d5a7-4d64-8849-5f991f2cdad8")
+		)
+		(pin "12"
+			(uuid "56c92d35-b484-4972-b499-d4b4a2bb96a1")
+		)
+		(pin "11"
+			(uuid "85a8ae10-07b8-434b-b676-d601324f5f62")
+		)
+		(pin "10"
+			(uuid "48891c1b-7389-4b40-a072-be9ec5c92a48")
+		)
+		(pin "7"
+			(uuid "ac321c96-8481-4aed-b476-db9bae6fc63f")
+		)
+		(pin "3"
+			(uuid "32b98e7a-ca92-46cc-ad64-9c4dea5718b3")
+		)
+		(pin "5"
+			(uuid "d0a2c761-5862-4a5d-8696-2e8339327b02")
+		)
+		(pin "4"
+			(uuid "8f9b5041-f1ed-4ef2-9bb2-d3d44ec69c07")
+		)
+		(pin "9"
+			(uuid "6ea985b9-5e91-47ed-b29f-3184c6d66727")
+		)
+		(pin "6"
+			(uuid "1be6a3e4-4163-465d-837e-a8f9cbf03389")
+		)
+		(pin "2"
+			(uuid "ef5399b0-b5b3-4edc-9e35-e36c59676fc2")
+		)
+		(pin "1"
+			(uuid "6fd1e39b-0172-4d68-b3d8-b7fbbd8b762f")
+		)
+		(instances
+			(project "drv8833-motor-driver-breakout-connections-schematic"
+				(path "/a81b9a3a-4ea1-4464-987c-9041f4650df5"
+					(reference "MD")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC_ALT")
+		(at 76.2 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c868e45-7893-48bb-b340-d6542f2432c2")
+		(property "Reference" "DCM"
+			(at 72.39 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GA12-N20 3Vout 90mA-300mA"
+			(at 98.806 34.544 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.486 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.486 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor, alternative symbol"
+			(at 76.2 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "82c7a7fb-d187-4555-bb78-16f006f650e4")
+		)
+		(pin "1"
+			(uuid "cfaab45c-b18d-4eac-8370-025416e7585e")
+		)
+		(instances
+			(project "drv8833-motor-driver-breakout-connections-schematic"
+				(path "/a81b9a3a-4ea1-4464-987c-9041f4650df5"
+					(reference "DCM")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "drawing-sheet-template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WC4BD0NANaVQyAwrx4srMicXzSTGM57/yj20msiO9TIPd+pQiwctAB3AjsAOAA4ALTilV6Q
+				fJD9QrW3+D9N42STd61fQze5a59aPl2Z42t/Xq/+eBoHiiCEgdiRq6XadcrTOJqkMlmzopInXx3D
+				bCVJ0oMcu/tFtqpHsuVryJHQkP/O15xjx2b9yi9m/y2V2Yc86G3IlT7uxKZ3+AVJ+JohbwUURTUM
+				PE21DsgysmYzBx1TLzsgI7d0oM1yq0oj//TMua/Xa6u/uLmdpLIXxX49fXbIs1Un9k52HA7kQPFF
+				CwPjoEggKKKi13zK1mUphiLHSJIGT8CxWz6pMwdFI9HAALjQuPdu1796xZuDvjaJyMjQsEXJHT8g
+				cETkzJkHDEMFm9MYht4tkicKEhWdJzgBSfTRS1DmJwhd4QBVmZi074DHTCwJYfgkzjdJgp4/duLY
+				Vwm6c0yDY2+9EsOzBmSZo0eiKQFjIKytaXbDcA4m2svwKjBpEFx22APvRj9j+CJBd0b0knIEzp6/
+				XtuBGJGgTQKAHqXuxhEJ81LdBCxQRRHiBfu9qkEw40PsAQ==|
+			)
+			(checksum "222AC07D2138133F966E3403095DA880")
+		)
+	)
+)
