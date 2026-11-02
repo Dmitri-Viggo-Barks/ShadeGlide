@@ -317,3 +317,4 @@ temporaries/
 hardware/electronics/**/*.backup
 hardware/electronics/**/sym-lib-table
 hardware/electronics/**/fp-lib-table
+*.kicad_prl
