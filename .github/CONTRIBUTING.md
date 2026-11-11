@@ -242,8 +242,8 @@ The format for naming branches: <br/>
 ### Examples of Branch Names
 `feat/firmware-motor-control` <br/>
 `fix/mechanical-layer-reallocation` <br/>
-`refactor/docs-directory-reorganization` <br/>
-`docs/hardware-schematic-symbols-info` <br/>
+`refactor/documentation-directory-reorganization` <br/>
+`docs/electronics-schematic-symbols-info` <br/>
 
 
 Although development journals can be included in the developing branch, it is preferred to have its dedicated branch. See <i><a href="#documentation-requirements">Documentation Requirements</a></i> for more information.<br/>
