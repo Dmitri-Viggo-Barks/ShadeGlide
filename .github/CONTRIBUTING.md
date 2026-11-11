@@ -5,7 +5,7 @@ Thank you for taking the time to contribute to the project! To maintain project 
 
 | <strong>Code of Conduct</strong>|
 | :---:|
-| Please be respectful, constructive, and collaborative in all issues, PRs, and discussions. |
+| Please be respectful, constructive, and collaborative in all issues, Pull Requests, and discussions. |
 <br/>
 
 <!-- TABLE OF CONTENTS -->
@@ -127,7 +127,7 @@ Firmware contributions must follow the project's established architecture, codin
 - Follow the project's established code formatting rules.
 - Use descriptive names for variables, functions, macros, and types.
 - Prefer fixed-width integer types from `<stdint.h>` when the required integer width matters.
-- Use appropriate constants and named definitions for hardware-related values instead of unexplained numeric literals.
+- Use appropriate constants and named definitions for hardware-related values instead of unexplained numeric literals. Refer to the Reference Manual.
 - Keep functions focused on clearly defined responsibilities.
 - Check return values and handle errors from hardware interfaces and system APIs where appropriate.
 - Avoid unnecessary global state and unexplained dependencies between modules.
@@ -135,7 +135,7 @@ Firmware contributions must follow the project's established architecture, codin
 
 ### Hardware Interface Changes
 When modifying GPIO assignments, sensor interfaces, motor control, or communication protocols:
-- Verify compatibility with the target hardware and existing pin assigments.
+- Verify compatibility with the target hardware and existing pin assignments.
 - Update the relevant hardware configuration and documentation.
 - Consider the effects on existing peripherals and shared interfaces.
 - Account for startup behavior, communication failures, and unexpected operating conditions.
@@ -174,7 +174,7 @@ When modifying mechanical components:
 Where practical, verify proposed changes through appropriate simulations, measurements, inspections, and physical tests. <br/>
 <br/>
 <strong>
-Distinguish between a desgin that has been modeled, a design that has been assembled, and a design that has been physically tested.
+Distinguish between a design that has been modeled, that has been assembled, and a design that has been physically tested.
 </strong> <br/>
 <br/>
 Document any known limitations or unverified assumptions associated with the proposed changes. <br/>
@@ -182,7 +182,7 @@ Document any known limitations or unverified assumptions associated with the pro
 
 
 ## Development Setup
-Before contributing, ensure that the development envionment is configured for the components or work intended to modify or add.
+Before contributing, ensure that the development environment is configured for the components or work intended to modify or add.
 <br/>
 
 | <strong> Note </strong> |
@@ -195,25 +195,25 @@ Before contributing, ensure that the development envionment is configured for th
 Below are the tools required to be used to contribute to the project regardless of scope or aspect of the contribution.
 
 
-| Tool    |     | Purpose |
-| :-----: | --- | :------------: |
-| Git     |     | Project's version control and branch management |
+| Tool    | Purpose |
+| :-----: | :------------: |
+| Git     | Project's version control and branch management |
 <br/>
 
 ### Scope-Related Required Tools
 Shown below are the tools required for each scope of the project; tools for `firmware`, `electronics`, and `mechanical`.
 
 #### `firmware` Tools
-| Tool    |     | Purpose |
-| :-----: | --- | :------------: |
-| ESP-IDF (Official Espressif Systems IDE)/ <br/>Visual Studio Code + ESP-IDF Extension     |     | Microcontroller firmware developments and compilation <br/> environment for ESP32 Microcontroller Units |
-| Python (ESP-IDF Compatible) |     | Running ESP-IDF utilities and supporting <br/>scripts for development files and programs |
+| Tool    | Purpose |
+| :-----: | :------------: |
+| ESP-IDF (Official Espressif Systems IDE)/ <br/>Visual Studio Code + ESP-IDF Extension     | Microcontroller firmware developments and compilation <br/> environment for ESP32 Microcontroller Units |
+| Python (ESP-IDF Compatible) | Running ESP-IDF utilities and supporting <br/>scripts for development files and programs |
 <br/>
 
 #### `electronics` Tools
-| Tool    |     | Purpose |
-| :-----: | --- | :------------: |
-| KiCad (10.<i>x</i>.<i>y</i> or versions <br/> compatible with projects' files)     |     | Preferred program for electronics schematics <br/>and component symbol editing |
+| Tool    | Purpose |
+| :-----: | :------------: |
+| KiCad (10.<i>x</i>.<i>y</i> or versions <br/> compatible with projects' files) | Preferred program for electronics schematics <br/>and component symbol editing |
 <br/>
 
 #### `mechanical` Tools
@@ -236,7 +236,8 @@ Detailed below are the instructions to create a dedicated personal or separate d
 To protect `main` branch, create a separate branch for each task or group of related changes before merging into `main`.
 
 The format for naming branches: <br/>
-&emsp;`<type>/<scope>-<short description>`
+&emsp;`<type>/<scope>-<short description>` <br/>
+<i> See <a href="#type-and-scope"><code>type</code> and <code>scope</code></a> for more information. </i>
 
 ### Examples of Branch Names
 `feat/firmware-motor-control` <br/>
@@ -252,13 +253,14 @@ Although development journals can be included in the developing branch, it is pr
 To easily identify and isolate related changes, the format for creating the commit message follows the <strong>Conventional Commits</strong> format.
 
 The format for creating a commit message: <br/>
-&emsp;`<type>(<scope>): <brief description>`
+&emsp;`<type>(<scope>): <brief description>` <br/>
+<i> See <a href="#type-and-scope"><code>type</code> and <code>scope</code></a> for more information. </i>
 
 Commit messages must be brief and in the present tense.
 
 ### Examples of Commit Messages
 `test(tools): verify compatibility with electronic components` <br/>
-`chore(repo): update gitignore rules` <br/>
+`chore(repo): update .gitignore rules` <br/>
 `build(mechanical): update sensor mount enclosure for tolerance` <br/>
 `ci(firmware): cache ESP-IDF tools for esp32c3 builds` <br/>
 <br/>
@@ -269,29 +271,29 @@ The previous two sections (<i><a href="#branch-naming-convention">Branch Naming 
 ### `<type>`
 This refers to the <strong>Type</strong> of changes done in the branch or commit. <br/>
 
-| Type       |     | Purpose |
-| :---:      | --- | :---: |
-| `feat`     |     | Introduce a system feature or physical capability |
-| `fix`      |     | Correct a defect |
-| `test`     |     | Add or modify tests |
-| `refactor` |     | Restructure or improve files without intentionally <br/>altering intended functionality |
-| `build`    |     | Update project configurations, firmware <br/> dependencies, ormanufacturing settings |
-| `ci`       |     | Change continuous integration workflows |
-| `docs`     |     | Change certain documentation |
-| `chore`    |     | General repository maintenance |
+| Type             | Purpose |
+| :---:            | :---: |
+| `feat`           | Introduce a system feature or physical capability |
+| `fix` / `hotfix` | Correct a defect or error. Use `hotfix` for defects or errors worth immediate work |
+| `test`           | Add or modify tests |
+| `refactor`       | Restructure or improve files without intentionally <br/>altering intended functionality |
+| `build`          | Update project configurations, firmware <br/> dependencies, or manufacturing settings |
+| `ci`             | Change continuous integration workflows |
+| `docs`           | Change certain documentation |
+| `chore`          | General repository maintenance |
 <br/>
 
 ### `<scope>`
 This refers to the <strong>Scope</strong> of the changes done in the branch or commit. <br/>
 
-| Scope           |     | Covers |
-| :---:           | --- | :---: |
-| `firmware`      |     | Embedded software for the programmable electronic components |
-| `electronics`   |     | Schematics, electrical components, and physical electrical wiring |
-| `mechanical`    |     | CAD models, 3D-print parts, and mechanical assemblies |
-| `documentation` |     | Journals, guides, and general documentation |
-| `tools`         |     | Development utilities and supporting scripts |
-| `repo`          |     | Repository configuration and maintenance | 
+| Scope           | Coverage |
+| :---:           | :---: |
+| `firmware`      | Embedded software for the programmable electronic components |
+| `electronics`   | Schematics, electrical components, and physical electrical wiring |
+| `mechanical`    | CAD models, 3D-print parts, and mechanical assemblies |
+| `documentation` | Journals, guides, and general documentation |
+| `tools`         | Development utilities and supporting scripts |
+| `repo`          | Repository configuration and maintenance | 
 <br/>
 
 <br/>
@@ -342,6 +344,8 @@ Clearly distinguish between:
 - `Not Tested`: The tests were not performed.
 - `Not Applicable`: The check does not apply to the proposed changes. <br/>
 
+When not all required tests where performed, add a `Not Tested` report that lists the tests not performed.
+
 <strong>
 Do not report a test as passed unless it was actually performed.
 </strong>
@@ -367,25 +371,25 @@ Development journals should record meaningful progress, experiments, design deci
 
 Each journal entry should only be made after each project's milestone or major development, it should not discuss individual developments. Individual developments can be discussed together in one journal entry. <br/>
 
-Preferrably, a journal entry is made after merging a branch for a major implementation or change to the project. This journal should contain the rationale and decisions done throughout the contribution, as well as function or behavior of what was contributed.
+Preferably, a journal entry is made after merging a branch or branches for a major implementation or change to the project. This journal should contain the rationale and decisions done throughout the contribution, as well as function or behavior of what was contributed.
 
-Each journal entry must follow the format: <br/> 
+Each journal entry file name must follow the format: <br/> 
 &emsp; `<journal sequence number>-<title in kebab-case>.md`
 
-, with the journal sequence number in a 3 digit format with zeroes padding unused spaces.
+, with the journal sequence number in a 3 digit format with zeros padding unused spaces.
 
 ### Examples of Journal Names
 `009-updated-electronics-overview-schematic.md` <br/>
 `043-replaced-glizzy-gobbler-module.md` <br/>
 `175-beginning-of-mechanical-design.md` <br/>
 
-A template for development journals can be found in -----.
+A template for development journals can be found in `../docs/journals/`: [`JOURNAL_TEMPLATE.md`](../docs/journals/JOURNAL_TEMPLATE.md).
+
 
 | Note |
 | :---: |
-| Documentation does not only come in Journals. Dedicated files for documentation are encouraged, provided they are focused on only a specific case and are contained in a dedicated directory in `docs/` (contained in the root `docs/` or a made directory) |
+| Documentation does not only come in Journals. Dedicated files for documenting specific changes or additions are encouraged, provided they are focused on only a specific case and are contained in a dedicated directory in [`../docs/`](../docs/) (contained in the root `docs/` or a made dedicated directory) |
 <br/>
-<!-- TODO: link the docs/ directory -->
 <br/>
 
 
@@ -400,7 +404,7 @@ A useful bug report should include, where applicable:
 - The affected subsystem and hardware configuration.
 - Relevant firmware, toolchain, or component versions.
 - Error messages, logs, photographs, or other supporting evidence.
-- Any troubleshoting steps already performed. <br/>
+- Any troubleshooting steps already performed. <br/>
 &emsp;<strong>For Hardware-Related Problems:</strong>
 - Include relevant wiring, power conditions, and physical observations when available.
 
@@ -418,8 +422,7 @@ Below enumerates what a contributor has to do before opening a pull request for 
 - Ensure that the pull request targets the appropriate base branch.
 
 ### Pull Request Description
-Each pull request must clearly explain listed below. A template of a pull request is at `.github/PULL_REUEST_TEMPLATE.md`.
-<!-- TODO: embed ts -->
+Each pull request must clearly explain listed below. A template of a pull request can be found in `../.github/PULL_REQUEST_TEMPLATE.md`: [`PULL_REQUEST_TEMPLATE.md`](../.github/PULL_REQUEST_TEMPLATE.md).
 
 - <strong>Summary</strong>: What was changed?
 - <strong>Motivation</strong>: Why was the change necessary?
