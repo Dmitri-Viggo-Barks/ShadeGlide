@@ -19,5 +19,5 @@ Content <br/>
 <br>
 
 ---
-Created: `<date: dd Month, YYYY>`; `<time of creation in 24-hr format>`  
-Author: `<Author Username>`
+Created: `<date: dd Month, YYYY>`; Author: `<Author Username of creator>`
+Modified: `<date: dd Month, YYYY>`; Author: `<Author Username> of modifier`
