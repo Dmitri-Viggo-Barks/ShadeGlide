@@ -10,7 +10,7 @@ Content <br/>
 Content <br/>
 
 ## Affected Areas
-<!-- Check all areas that has been affected -->
+<!-- Check all areas that has been affected. [X] for affected -->
 - [ ] Firmware
 - [ ] Electronics
 - [ ] Mechanical
@@ -23,6 +23,21 @@ Content <br/>
 
 #### <i>Validation on `Affected Area X`</i>
 Content <br/>
+<br/>
+
+<strong> TEST RESULT: <!-- `Passed` / `Failed` / `Not Tested` / `Not Applicable` --> </strong><br/>
+Tests performed: <br/>
+
+- test#1
+- test#<i>x</i>
+<br/>
+<!-- Remove this section if all required tests are done -->
+<Strong>Not Tested: </strong><br/>
+
+- test#1
+- test#<i>x</i>
+<br/>
+
 
 ## Documentation
 Content <br/>
