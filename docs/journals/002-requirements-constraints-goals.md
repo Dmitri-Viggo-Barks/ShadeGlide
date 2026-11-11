@@ -32,5 +32,4 @@ No technical specifics are required, exploration is encouraged.
 As this project is developed and managed by students, most likely only one for most of the projects life cycle, the project would be constrained by finances and time. For the sake of minimizing costs for production, the use of breakout boards and modules would be implemented into the products. Creating and fabricating custom made PCBs for the products would be too costly for the contributors. The time it takes to develop the project would also bleed into the time of the contributors, considering that they are still students.
 
 ---
-Created: 9 November, 2026 <br/>
-Author: [@Dmitri-Viggo-Barks](https://github.com/Dmitri-Viggo-Barks)
+Created: 9 November, 2026; Author: [@Dmitri-Viggo-Barks](https://github.com/Dmitri-Viggo-Barks)
