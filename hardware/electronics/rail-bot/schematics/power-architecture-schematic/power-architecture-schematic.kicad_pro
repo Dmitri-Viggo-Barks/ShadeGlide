@@ -257,7 +257,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "hanging-bot-overview-schematic.kicad_pro",
+    "filename": "power-architecture-schematic.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -425,18 +425,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "hanging-bot-overview-schematic.kicad_sch",
-        "name": "hanging-bot-overview-schematic",
-        "uuid": "638c2635-940b-4c6d-a18f-d5c6d346b7a9"
+        "filename": "power-architecture-schematic.kicad_sch",
+        "name": "power-architecture-schematic",
+        "uuid": "16eb8ea5-f144-4646-966e-5fd75694f001"
       }
     ],
-    "used_designators": "",
+    "used_designators": "BBC2,BT1",
     "variants": []
   },
   "sheets": [
     [
-      "638c2635-940b-4c6d-a18f-d5c6d346b7a9",
-      "hanging-bot-overview-schematic"
+      "16eb8ea5-f144-4646-966e-5fd75694f001",
+      "power-architecture-schematic"
     ]
   ],
   "text_variables": {},

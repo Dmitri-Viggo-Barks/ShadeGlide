@@ -1,0 +1,2 @@
+ESP32-C3 Super Mini kicad symbol was adapted from:
+https://gitlab.warpzone.ms/infrastruktur/speaker-switcher/-/blob/a1d6ea9e9f12e4f386fc843185724b4619c5ae06/hardware/KiCad_ESP32-C3-SuperMini/ESP32-C3-SuperMini.kicad_sym

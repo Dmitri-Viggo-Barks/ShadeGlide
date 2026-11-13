@@ -5,9 +5,178 @@
 	(uuid "638c2635-940b-4c6d-a18f-d5c6d346b7a9")
 	(paper "A5")
 	(title_block
-		(title "Hanging Bot Schematic Overview")
+		(title "Rail Bot Components Overview Schematic")
 	)
 	(lib_symbols
+		(symbol "B6284_Switching_IC_DCDC_Buck_Boost_Converter_Module:B6284 Adjustable Output Buck-Boost Converter Module"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BBC"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B6284 Adjustable Output Buck-Boost Converter Module"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "B6284 Adjustable Output Buck-Boost Converter Module_0_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "B6284 Adjustable Output Buck-Boost Converter Module_1_1"
+				(pin power_in line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DRV8833_MOTOR_DRIVER_BREAKOUT_MODULE:DRV8833_Motor_Driver_Breakout"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -863,326 +1032,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ECBUYING_BBCs:ECBuying_Adjustable_5Pin"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BBC"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ECBuying_Adjustable_5Pin"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ECBuying_Adjustable_5Pin_0_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "ECBuying_Adjustable_5Pin_1_1"
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "IN+"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "IN-"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 8.89 2.54 180)
-					(length 2.54)
-					(name "OUT+"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "OUT-"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 8.89 270)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ECBUYING_BBCs:ECBuying_S08_V5_3V3"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BBC"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ECBuying_S08_V5_3V3"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ECBuying_S08_V5_3V3_0_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "ECBuying_S08_V5_3V3_1_1"
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "IN+"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "IN-"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 8.89 2.54 180)
-					(length 2.54)
-					(name "OUT+"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "OUT-"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ESP32_C3_Super_Mini:ESP32-C3-super-mini"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1949,6 +1798,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "XL63020_TPS63020_IC_DCDC_Buck_Boost_Converter_Module:XL63020 3V3 Fixed Output Buck-Boost Converter Module"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BBC"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XL63020 3V3 Fixed Output Buck-Boost Converter Module"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XL63020 3V3 Fixed Output Buck-Boost Converter Module_1_1"
+				(rectangle
+					(start -8.89 6.35)
+					(end 8.89 -6.35)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -8.89 90)
+					(length 2.54)
+					(name "PS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -8.89 90)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2065,31 +2099,89 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "(Motor GND)\n"
+	(text "HIGH in-board"
 		(exclude_from_sim no)
-		(at 34.29 73.406 0)
+		(at 107.188 44.196 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 0 0 1)
 			)
 		)
-		(uuid "5d49a945-c297-4160-8105-531ddd88cba4")
+		(uuid "3272e115-dd62-4fe2-93f8-94c7a53d0838")
 	)
-	(text "(Logic GND)"
+	(text " Buck-Boost Converter Module"
 		(exclude_from_sim no)
-		(at 138.43 120.396 0)
+		(at 43.942 46.228 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 100 100 1)
 			)
 		)
-		(uuid "7f8151f8-5f3a-448e-9261-f8c10a95e00e")
+		(uuid "4e435005-1d47-4eab-906a-0fe7e4e44629")
+	)
+	(text "Buck-Boost Converter Module"
+		(exclude_from_sim no)
+		(at 147.066 48.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 100 100 1)
+			)
+		)
+		(uuid "6f1002d0-be6f-4dce-8708-c5549582872e")
+	)
+	(text "Sensor Breakout"
+		(exclude_from_sim no)
+		(at 181.356 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 100 100 1)
+			)
+		)
+		(uuid "6f44765b-7c53-416c-8b86-133d4770dde8")
+	)
+	(text "Sensor Breakout"
+		(exclude_from_sim no)
+		(at 181.61 68.326 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 100 100 1)
+			)
+		)
+		(uuid "a6981226-8fb1-4e03-8fa9-7cda3a0b7694")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 33.528 56.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "c1dfb59f-33c8-4076-b101-5d3086726651")
+	)
+	(junction
+		(at 73.66 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01cbde52-8fce-43ef-b1a7-758da8f391d6")
 	)
 	(junction
 		(at 125.73 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b171f05-9e9b-49ad-ad72-c40979df16bc")
+		(uuid "3d281014-a3f0-40b4-94ad-81b0711a5172")
+	)
+	(junction
+		(at 101.6 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cd8802c-7fc2-4794-8020-878f3e4c1860")
 	)
 	(junction
 		(at 96.52 55.88)
@@ -2114,12 +2206,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81981963-1e86-494e-9b1a-95f9465507fb")
-	)
-	(junction
-		(at 101.6 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b99cec4b-1ca5-44d6-a4f3-25b37c78d7f1")
 	)
 	(junction
 		(at 121.92 106.68)
@@ -2160,10 +2246,6 @@
 		(uuid "52da12ba-9ba3-42f4-ba92-c54f62c8d52d")
 	)
 	(no_connect
-		(at 80.01 43.18)
-		(uuid "5361e9cc-5a30-485d-b61b-d96ec6bde825")
-	)
-	(no_connect
 		(at 91.44 78.74)
 		(uuid "5a50be1d-d3cd-4c84-a3eb-f2a48988564f")
 	)
@@ -2186,6 +2268,10 @@
 	(no_connect
 		(at 55.88 97.79)
 		(uuid "a416b5d8-5301-4355-ab88-1ec8b66247b9")
+	)
+	(no_connect
+		(at 114.3 40.64)
+		(uuid "b91ebbd2-300f-4b52-9956-26816680f8c5")
 	)
 	(no_connect
 		(at 91.44 83.82)
@@ -2219,6 +2305,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 55.88) (xy 125.73 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8e0e03-291a-409b-a9bd-6561cd04fdf4")
+	)
+	(wire
+		(pts
 			(xy 156.21 76.2) (xy 125.73 76.2)
 		)
 		(stroke
@@ -2236,6 +2332,16 @@
 			(type default)
 		)
 		(uuid "12dcfffb-3f32-4418-b478-c2f324d858ca")
+	)
+	(wire
+		(pts
+			(xy 66.04 53.34) (xy 66.04 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133a0922-ee22-447d-b726-b8a1cdcee079")
 	)
 	(wire
 		(pts
@@ -2319,13 +2425,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 27.94) (xy 68.58 27.94)
+			(xy 66.04 55.88) (xy 96.52 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30117408-f17d-481d-8804-94d91e9f406c")
+		(uuid "2cd8a136-b227-47f4-aea0-144135dca314")
+	)
+	(wire
+		(pts
+			(xy 66.04 27.94) (xy 92.71 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e832a02-623e-4647-8870-cac91b48d74a")
 	)
 	(wire
 		(pts
@@ -2349,6 +2465,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 31.75) (xy 120.65 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380d6e43-a380-46d3-a226-fa30a3c0a0d0")
+	)
+	(wire
+		(pts
 			(xy 143.51 86.36) (xy 143.51 88.9)
 		)
 		(stroke
@@ -2359,7 +2485,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 111.76) (xy 99.06 111.76)
+			(xy 86.36 111.76) (xy 92.71 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2399,16 +2525,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 31.75) (xy 125.73 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45756df4-758e-4261-b1ec-850c0b946adf")
-	)
-	(wire
-		(pts
 			(xy 86.36 88.9) (xy 86.36 111.76)
 		)
 		(stroke
@@ -2439,13 +2555,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 27.94) (xy 96.52 27.94)
+			(xy 96.52 27.94) (xy 125.73 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4d8fbaf9-375b-47b3-bd6c-efde56b99f36")
+	)
+	(wire
+		(pts
+			(xy 101.6 31.75) (xy 120.65 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54da08e8-77ea-4aef-8d3a-0bddfa90a415")
 	)
 	(wire
 		(pts
@@ -2486,6 +2612,36 @@
 			(type default)
 		)
 		(uuid "5f14784a-9714-4ca5-9db8-fca0226b2086")
+	)
+	(wire
+		(pts
+			(xy 71.12 33.02) (xy 71.12 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65496e81-66d8-428a-8fbe-2ff9bdd0aacd")
+	)
+	(wire
+		(pts
+			(xy 71.12 31.75) (xy 73.66 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a52f695-fe48-4a9e-abcd-23fd5dcabc2c")
+	)
+	(wire
+		(pts
+			(xy 66.04 27.94) (xy 66.04 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cdc8441-425c-487e-be02-fad2f69e3b6c")
 	)
 	(wire
 		(pts
@@ -2559,16 +2715,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 55.88) (xy 96.52 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89ff3855-548a-4d3c-9f63-fd41115150bd")
-	)
-	(wire
-		(pts
 			(xy 76.2 72.39) (xy 53.34 72.39)
 		)
 		(stroke
@@ -2576,6 +2722,16 @@
 			(type default)
 		)
 		(uuid "8d3d223b-e809-47ec-86e8-b956fe64a46e")
+	)
+	(wire
+		(pts
+			(xy 100.33 111.76) (xy 107.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7d3a84-c3dc-4e89-a18c-87da6ea65e4f")
 	)
 	(wire
 		(pts
@@ -2589,16 +2745,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 34.29) (xy 120.65 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "951e6215-f4f8-4418-928c-61259c3cbb47")
-	)
-	(wire
-		(pts
 			(xy 55.88 60.96) (xy 73.66 60.96)
 		)
 		(stroke
@@ -2606,6 +2752,16 @@
 			(type default)
 		)
 		(uuid "95f3e94a-343c-4486-97db-8d2e4c2016b0")
+	)
+	(wire
+		(pts
+			(xy 73.66 53.34) (xy 73.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977c9740-070e-454a-bbfa-4b50883eed3a")
 	)
 	(wire
 		(pts
@@ -2629,26 +2785,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 31.75) (xy 125.73 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b138ceb-a5ca-4760-8e61-86a24f1934c8")
-	)
-	(wire
-		(pts
-			(xy 73.66 31.75) (xy 73.66 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c884c8c-537a-4b3b-be02-90c0a038a4c4")
-	)
-	(wire
-		(pts
 			(xy 92.71 24.13) (xy 92.71 27.94)
 		)
 		(stroke
@@ -2656,16 +2792,6 @@
 			(type default)
 		)
 		(uuid "9ffb945c-713a-45fe-a831-10b89430060e")
-	)
-	(wire
-		(pts
-			(xy 73.66 60.96) (xy 73.66 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a494caf3-2ee9-422a-afb1-0834ed3d0746")
 	)
 	(wire
 		(pts
@@ -2689,7 +2815,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 111.76) (xy 121.92 111.76)
+			(xy 115.57 111.76) (xy 121.92 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2769,13 +2895,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 52.07) (xy 125.73 58.42)
+			(xy 73.66 31.75) (xy 73.66 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfe32c1d-2cc9-4ca6-b458-5a9aaebde908")
+		(uuid "d4b0df5a-b885-413d-b221-ab355c4e240c")
 	)
 	(wire
 		(pts
@@ -2786,16 +2912,6 @@
 			(type default)
 		)
 		(uuid "d50ee54b-84e9-4cd9-baba-46b8568dc9b7")
-	)
-	(wire
-		(pts
-			(xy 120.65 55.88) (xy 120.65 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7742b27-ce18-464d-8bef-6fe7632a2c9d")
 	)
 	(wire
 		(pts
@@ -2839,16 +2955,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 52.07) (xy 68.58 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e952e3f8-a3af-4dde-9e38-4751054d50f7")
-	)
-	(wire
-		(pts
 			(xy 81.28 91.44) (xy 81.28 68.58)
 		)
 		(stroke
@@ -2869,6 +2975,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 27.94) (xy 125.73 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eecaf925-456a-4746-9ca5-e333ec7db05f")
+	)
+	(wire
+		(pts
 			(xy 130.81 71.12) (xy 156.21 71.12)
 		)
 		(stroke
@@ -2876,16 +2992,6 @@
 			(type default)
 		)
 		(uuid "efeca2c3-8678-4b90-b6a3-feb9e7405d80")
-	)
-	(wire
-		(pts
-			(xy 68.58 27.94) (xy 68.58 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f03751bf-c01c-496a-90d0-677eab8f0b5d")
 	)
 	(wire
 		(pts
@@ -2966,6 +3072,16 @@
 			(type default)
 		)
 		(uuid "fd359d3a-157b-40fa-aa4b-7a96c81c21f2")
+	)
+	(label "shorted to VIN"
+		(at 114.3 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5647ec1-36ca-455e-bf88-04dd47a82396")
 	)
 	(symbol
 		(lib_id "DRV8833_MOTOR_DRIVER_BREAKOUT_MODULE:DRV8833_Motor_Driver_Breakout")
@@ -3111,7 +3227,8 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
+					(color 0 100 100 1)
 				)
 			)
 		)
@@ -3170,101 +3287,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ECBUYING_BBCs:ECBuying_S08_V5_3V3")
-		(at 123.19 43.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0d9bd366-7949-4d68-8993-f130ef18cd35")
-		(property "Reference" "BBC2"
-			(at 130.302 41.402 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ECBuying S08 V5 3V3"
-			(at 130.302 43.942 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f59d0b7e-1f7f-4992-9a88-abc9c8ea1ad1")
-		)
-		(pin "3"
-			(uuid "1b92ebb1-f68c-4e28-bbd1-48a40a3ea831")
-		)
-		(pin "4"
-			(uuid "111e37bc-4127-4cdb-8072-4f3bb0ee01e5")
-		)
-		(pin "2"
-			(uuid "58f3ae7e-baa2-480c-abab-b2d5d8fa009c")
-		)
-		(instances
-			(project "hanging-bot-schematic"
-				(path "/29ee5cd9-484b-4e2b-9ad9-545557973c87"
-					(reference "BBC2")
-					(unit 1)
-				)
-			)
-			(project "hanging-bot-overview-schematic"
-				(path "/638c2635-940b-4c6d-a18f-d5c6d346b7a9"
-					(reference "BBC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 110.49 111.76 90)
+		(at 111.76 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3274,7 +3298,7 @@
 		(dnp no)
 		(uuid "16c546dd-1c0b-41e9-bb04-6cd84cf3cfd8")
 		(property "Reference" "R"
-			(at 110.49 114.3 90)
+			(at 111.76 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3283,18 +3307,19 @@
 				)
 			)
 		)
-		(property "Value" "Current Limiting Resistor"
-			(at 110.49 116.84 90)
+		(property "Value" "Current-Limiting Resistor"
+			(at 111.76 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
+					(color 0 100 100 1)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 113.538 90)
+			(at 111.76 113.538 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3305,7 +3330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 111.76 0)
+			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3316,7 +3341,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 110.49 111.76 0)
+			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3348,6 +3373,96 @@
 		)
 	)
 	(symbol
+		(lib_id "B6284_Switching_IC_DCDC_Buck_Boost_Converter_Module:B6284 Adjustable Output Buck-Boost Converter Module")
+		(at 69.85 43.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2557ee53-fbd0-4846-91cd-6faaa9d88d03")
+		(property "Reference" "BBC1"
+			(at 61.468 41.402 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B6284 Adjustable Output"
+			(at 61.722 43.942 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e91e5631-df50-47af-9129-5546bc16fb55")
+		)
+		(pin "2"
+			(uuid "7efca22b-7bae-44de-bb19-c907d8bfca75")
+		)
+		(pin "4"
+			(uuid "2c291daf-4674-41d1-a2d9-12990f24b759")
+		)
+		(pin "5"
+			(uuid "8375894f-7d99-456b-90b3-41aac1137baa")
+		)
+		(pin "3"
+			(uuid "822cfa8a-0ae8-444f-a282-d3b5b14e86e2")
+		)
+		(instances
+			(project "hanging-bot-overview-schematic"
+				(path "/638c2635-940b-4c6d-a18f-d5c6d346b7a9"
+					(reference "BBC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.29 68.58 0)
 		(unit 1)
@@ -3357,7 +3472,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2cf006c4-f1cc-4ea3-b639-b7946b1ae5ae")
 		(property "Reference" "#PWR05"
 			(at 34.29 74.93 0)
@@ -3370,15 +3484,14 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 36.83 69.8499 0)
+		(property "Value" "GND (Motor)"
+			(at 34.29 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3442,7 +3555,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "33e808d9-8de6-4e45-9e16-f20708ed1061")
 		(property "Reference" "#PWR04"
 			(at 138.43 118.11 0)
@@ -3455,8 +3567,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 138.43 116.84 0)
+		(property "Value" "GND (Logic)"
+			(at 138.43 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3666,7 +3778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VL53L0X Sensor Breakout"
+		(property "Value" "VL53L0X ToF Laser-Range"
 			(at 170.18 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3744,8 +3856,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 102.87 111.76 0)
+		(lib_id "XL63020_TPS63020_IC_DCDC_Buck_Boost_Converter_Module:XL63020 3V3 Fixed Output Buck-Boost Converter Module")
+		(at 123.19 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3753,29 +3865,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "add9deac-37c0-4770-8500-29ba70caf61b")
-		(property "Reference" "D"
-			(at 102.87 106.172 0)
+		(fields_autoplaced yes)
+		(uuid "81d2e059-063c-4318-aecc-64f898cd882f")
+		(property "Reference" "BBC2"
+			(at 130.81 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "External Status LED"
-			(at 102.616 108.966 0)
+		(property "Value" "XL63020 3V3 Fixed Output"
+			(at 130.81 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 111.76 0)
+			(at 123.19 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3786,7 +3901,99 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 111.76 0)
+			(at 123.19 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1b53a524-a497-4070-bc9a-f41004cb2701")
+		)
+		(pin "6"
+			(uuid "fab8fed2-88cf-4cf5-bdc6-a12d7e4158d7")
+		)
+		(pin "5"
+			(uuid "c7d41219-70d4-4bb8-b288-927d8869222d")
+		)
+		(pin "4"
+			(uuid "0c18f8a8-ff56-4efb-b312-4156aec1b6dc")
+		)
+		(pin "1"
+			(uuid "bcfbe031-3a89-4b97-a4b8-fcb7dfd8ad2d")
+		)
+		(pin "2"
+			(uuid "3004852f-ca79-4333-8dbf-151eb9668812")
+		)
+		(instances
+			(project "hanging-bot-overview-schematic"
+				(path "/638c2635-940b-4c6d-a18f-d5c6d346b7a9"
+					(reference "BBC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 96.52 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "add9deac-37c0-4770-8500-29ba70caf61b")
+		(property "Reference" "D"
+			(at 96.52 106.172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Status LED"
+			(at 96.266 108.966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3797,7 +4004,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 102.87 111.76 0)
+			(at 96.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3808,7 +4015,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 102.87 111.76 0)
+			(at 96.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3862,7 +4069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VL53L0X Sensor Breakout"
+		(property "Value" "VL53L0X ToF Laser-Range"
 			(at 170.18 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3934,102 +4141,6 @@
 			(project "hanging-bot-overview-schematic"
 				(path "/638c2635-940b-4c6d-a18f-d5c6d346b7a9"
 					(reference "ToF1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECBUYING_BBCs:ECBuying_Adjustable_5Pin")
-		(at 71.12 43.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e20fe799-d9d5-440c-9e43-6f1f30d23495")
-		(property "Reference" "BBC1"
-			(at 64.008 40.894 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ECBuying Adjustable 5Pin"
-			(at 64.008 43.434 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "296f6039-70d5-4dd9-8685-ec7b4e84006d")
-		)
-		(pin "4"
-			(uuid "75a2e796-2ed0-44ab-9bd8-c6736838b8d9")
-		)
-		(pin "3"
-			(uuid "ecf5af30-d78e-4c53-8bc3-4fd5a06ebbb5")
-		)
-		(pin "1"
-			(uuid "7415b226-f5f5-4502-9d36-645f0852ddd6")
-		)
-		(pin "2"
-			(uuid "08541369-1fa8-4eb4-af9a-44bb45cb0065")
-		)
-		(instances
-			(project "hanging-bot-schematic"
-				(path "/29ee5cd9-484b-4e2b-9ad9-545557973c87"
-					(reference "BBC1")
-					(unit 1)
-				)
-			)
-			(project "hanging-bot-overview-schematic"
-				(path "/638c2635-940b-4c6d-a18f-d5c6d346b7a9"
-					(reference "BBC1")
 					(unit 1)
 				)
 			)
@@ -4163,7 +4274,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f5bdfff1-5bd3-490a-a734-81a2e03be9e2")
 		(property "Reference" "#PWR03"
 			(at 96.52 62.23 0)
@@ -4176,8 +4286,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 96.52 60.96 0)
+		(property "Value" "GND (Power)"
+			(at 96.52 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
