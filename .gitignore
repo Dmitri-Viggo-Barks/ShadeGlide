@@ -311,3 +311,7 @@ __marimo__/
 
 # temporary folders
 temporaries/
+
+# KiCad
+/hardware/electronics/rail-bot/schematics/**/*.history/
+/hardware/electronics/rail-bot/schematics/**/sym-lib-table
