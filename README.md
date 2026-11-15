@@ -199,8 +199,12 @@ timeline
 - [ ] Startup and Initialization
 
 </details>
+<details>
 <summary><strong>PHASE 5: Fabricate Rail Bot Body</strong></summary>
+</details>
+<details>
 <summary><strong>PHASE 6: Fabricate Smart Switch Body</strong></summary>
+</details>
 <details>
 <summary><strong>PHASE 7: Deployment-Environemnt Testing</strong></summary>
 
@@ -285,7 +289,8 @@ Distributed under the MIT License. See [`LICENSE`](../LICENSE) for more informat
 
 
 ## Project's Handler Contact
-Contact the Project's handler for any inquiries or concerns: &ensp;[![Facebook][Facebook-Profile-Badge]][Facebook-Profile-URL] &emsp;[![Instagram][Instagram-Profile-Badge]][Instagram-Profile-URL] <br/>
+Contact the Project's handler for any inquiries or concerns:<br/>
+[![Facebook][Facebook-Profile-Badge]][Facebook-Profile-URL] &emsp;[![Instagram][Instagram-Profile-Badge]][Instagram-Profile-URL] <br/>
 
 Gmail<strong>: dmitriviggomajorenos.business@gmail.com</strong>
 
