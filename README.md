@@ -20,7 +20,7 @@
   <h3 align="center">ShadeGlide</h3>
 
   <p align="center">
-    An embedded systems project that includes firmware, electronics, and mechanical fabrication.
+    An embedded systems project that includes firmware, electronics, and fabrication.
     <br />
     <a href="https://github.com/Dmitri-Viggo-Barks/ShadeGlide"><strong>Explore the repository »</strong></a>
     <br />
@@ -34,21 +34,13 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#usage---how-to-use-the-product">Usage - How To Use The Product</a></li>
+    <li><a href="#project-roadmap">Project Roadmap</a></li>
+    <li><a href="#getting-started-in-developement">Getting Started In Development</a></li>
+    <li><a href="#contributing-to-the-project">Contributing To The Project</a></li>
+    <li><a href="#projects-license">Project's License</a></li>
+    <li><a href="#projects-handler-contact">Project's Handler Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -91,9 +83,9 @@ The project creates two products, a Rail Bot and a Smart Switch. Both are contro
 <br/>
 
 
-### Built With
 <div align="center">
 
+### Built With
 ![VSCode][VSCode-Badge] &ensp;
 ![Espressif][Espressif-Badge] &ensp;
 ![KiCad][KiCad-Badge] &ensp;
@@ -103,9 +95,9 @@ The project creates two products, a Rail Bot and a Smart Switch. Both are contro
 </div>
 
 
-### Built In
 <div align="center">
 
+### Built In
 ![ESP--IDF-VSCode-Extension][ESP--IDF-VSCode-Extension-Badge]![VSCode-Extension][VSCode-Extension-Badge] &ensp;
 ![C][C-Badge] &ensp;
 ![RISC--V][RISC--V-Badge]
@@ -113,9 +105,9 @@ The project creates two products, a Rail Bot and a Smart Switch. Both are contro
 </div>
 
 
-### Tested With and In
 <div align="center">
 
+### Tested With and In
 ![Arduino IDE][Arduino-IDE-Badge] &ensp;
 ![Adafruit][Adafruit-Badge] &ensp;
 ![C++][C++-Badge] <br/>
@@ -124,10 +116,9 @@ The project creates two products, a Rail Bot and a Smart Switch. Both are contro
 </div>
 
 
-### Documented In
-
 <div align="center">
 
+### Documented In
 ![Git][Git-Badge] &ensp;
 ![GitHub][GitHub-Badge] &ensp;
 ![Markdown][Markdown-Badge]
@@ -138,7 +129,7 @@ The project creates two products, a Rail Bot and a Smart Switch. Both are contro
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-## Usage - How to Use
+## Usage - How To Use The Product
 Use a <strong>18650 Protected 3.7V 2200mAh Lithium-ion Battery</strong> for both the Rail Bot and Smart Switch. <strong>Inspect the batteries for any damages, using a damaged or faulty battery can cause damage to the components of either product.</strong>  Ensure the batteries of both the Rail Bot and Smart Switch are charged before use.
 
 1. Install the Rail Bot on the curtain rail, ensure the wheels clinch on the railing adequately.
@@ -155,81 +146,108 @@ Use a <strong>18650 Protected 3.7V 2200mAh Lithium-ion Battery</strong> for both
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- GETTING STARTED -->
-## Getting Started
-<!-- 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+<!-- ROADMAP -->
+## Project Roadmap
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+```mermaid
+timeline
+    title Project Overview Timeline
+    section CURRENT
+        PHASE 1 : Determine Rail Bot Electronic Components
+    section UPCOMING
+        PHASE 2 : Develop Rail Bot Firmware
+        PHASE 3 : Determine Smart Switch Electronic Components
+        PHASE 4 : Develop Smart Switch Firmware
+        PHASE 5 : Fabricate Rail Bot Body
+        PHASE 6 : Fabricate Smart Switch Body
+        PHASE 7 : Deployment-Environment Testing
+```
 
-### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ``` -->
+<details>
+<summary><strong><i>(CURRENT)</i> PHASE 1: Determine Rail Bot Electronic Components</strong></summary>
+
+- [ ] Acquire Electronic Components
+- [ ] Test and Validate Electronic Components
+- [ ] Prototype Testing
+
+</details>
+<details>
+<summary><strong>PHASE 2: Develop Rail Bot Firmware</strong></summary>
+
+- [ ] Driver development and Testing
+- [ ] BLE Communication
+- [ ] Application Logic
+- [ ] Startup and Initialization
+
+</details>
+<details>
+<summary><strong>PHASE 3: Determine Smart Switch Electronic Components</strong></summary>
+
+- [ ] Acquire Electronic Components
+- [ ] Test and Validate Electronic Components
+- [ ] Prototype Testing
+
+</details>
+<details>
+<summary><strong>PHASE 4: Develop Smart Switch Firmware</strong></summary>
+
+- [ ] BLE Communication
+- [ ] Application Logic
+- [ ] Startup and Initialization
+
+</details>
+<summary><strong>PHASE 5: Fabricate Rail Bot Body</strong></summary>
+<summary><strong>PHASE 6: Fabricate Smart Switch Body</strong></summary>
+<details>
+<summary><strong>PHASE 7: Deployment-Environemnt Testing</strong></summary>
+
+- [ ] Scenario Testing
+- [ ] Troubleshooting
+
+</details>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- ROADMAP -->
-## Roadmap
+<!-- GETTING STARTED -->
+## Getting Started In Developement
 
-- [ ] Determine Rail Bot Electronic Components
-    - [ ] Acquire Electronic Components
-    - [ ] Test and Validate Electronic Components
-    - [ ] Prototype Testing
-- [ ] Develop Rail Bot Firmware
-    - [ ] Driver development and Testing
-    - [ ] BLE Communication
-    - [ ] Application Logic
-    - [ ] Startup and Initialization
-- [ ] Determine Smart Switch Electronic Components
-    - [ ] Acquire Electronic Components
-    - [ ] Test and Validate Electronic Components
-    - [ ] Prototype Testing
-- [ ] Develop Smart Switch Firmware
-    - [ ] BLE Communication
-    - [ ] Application Logic
-    - [ ] Startup and Initialization
-- [ ] Fabricate Rail Bot Body
-- [ ] Fabricate Smart Switch Body
-- [ ] Deployment-Environemnt Testing
-    - [ ] Scenario Testing
-    - [ ] Troubleshooting
+### Clone The Repository
+Create a directory for the local copy of the repository on your PC then open a Command Line Interface (Terminal / Powershell / etc.) pointing to that directory. Run the command below to clone the repository:
 
+```bash
+  git clone https://github.com/Dmitri-Viggo-Barks/ShadeGlide.git
+```
+### Development Scope
+The project uses frameworks and environments for developing firmware, high-level hardware systems design, and 3D-printing fabrication. Before contributing to the project, read and refer to the project's contributing guidelines in `../.github/`: [`CONTRIBUTING.md`](../.github/CONTRIBUTING.md), it details the specific conventions and practices for developing the project. <br/>
+<br/>
+Depending on where the contribution scope is, the following are an enumeration of what is recommended to have to begin contributing:
+
+#### Firmware
+The project uses an ESP-IDF framework, so either the official Espressif ESP-IDF IDE or the ESP-IDF extension for Visual Studio Code can work.
+- Install [ESP-IDF IDE](https://docs.espressif.com/projects/espressif-ide/en/latest/installation.html): https://docs.espressif.com/projects/espressif-ide/en/latest/installation.html
+- Install [ESP-IDF Extension for Visual Studio Code](https://docs.espressif.com/projects/vscode-esp-idf-extension/en/latest/): https://docs.espressif.com/projects/vscode-esp-idf-extension/en/latest/
+
+#### Electronics
+The project uses KiCad version 10 for its high-level electronics system designing, though other programs are viable as long as they follow the project's conventions.
+- Install [KiCad](https://www.kicad.org/download/): https://www.kicad.org/download/
+- Rail Bot Electronic Components: to be determined
+- Smart Switch Electronic Components: to be determined
+
+#### Fabrication
+The project's final products have a fabricated 3D-printed body. The programs used for this phase of the project are yet to be determined.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
-## Contributing
-
+## Contributing To The Project
 Before contributing to the project, read and refer to the project's contributing guidelines in `../.github/`: [`CONTRIBUTING.md`](../.github/CONTRIBUTING.md). <strong> If the contributor is outside the project's main team, fork the project and begin working there. </strong> Below is a brief process for contributing:
 
 1. <strong>Create and Work on a New Branch</strong> <br/>
@@ -250,8 +268,7 @@ Before contributing to the project, read and refer to the project's contributing
 5. Open a Pull Request (follow the project's Pull Request Conventions in [`CONTRIBUTING.md`](../.github/CONTRIBUTING.md))
 
 ### Contributors:
-
-<a href="https://github.com/oDmitri-Viggo-Barks/ShadeGlide/graphs/contributors">
+<a href="https://github.com/Dmitri-Viggo-Barks/ShadeGlide/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Dmitri-Viggo-Barks/ShadeGlide" alt="contrib.rocks image" />
 </a>
 
@@ -260,31 +277,39 @@ Before contributing to the project, read and refer to the project's contributing
 
 
 <!-- LICENSE -->
-## License
-
+## Project's License
 Distributed under the MIT License. See [`LICENSE`](../LICENSE) for more information.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## Project's Handler Contact
+Contact the Project's handler for any inquiries or concerns: &ensp;[![Facebook][Facebook-Profile-Badge]][Facebook-Profile-URL] &emsp;[![Instagram][Instagram-Profile-Badge]][Instagram-Profile-URL] <br/>
 
+Gmail<strong>: dmitriviggomajorenos.business@gmail.com</strong>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
+The following sources are acknowledged to be useful for the development of the project. Some are references as well as implemented to the project's development.
 
-<!-- Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+* [ESP32-C3 Super Mini KiCad Symbol](https://gitlab.warpzone.ms/infrastruktur/speaker-switcher/-/blob/a1d6ea9e9f12e4f386fc843185724b4619c5ae06/hardware/KiCad_ESP32-C3-SuperMini/ESP32-C3-SuperMini.kicad_sym) from [GitLab repository "Speaker Switcher"](https://gitlab.warpzone.ms/infrastruktur/speaker-switcher)
+* [README.md template](https://github.com/othneildrew/Best-README-Template/blob/fc444eb7b04b2e4863f6080b1507a219e95103fa/BLANK_README.md) from [GitHub repository "Best-README-Template"](https://github.com/othneildrew/Best-README-Template)
+* [ESP32-C3 Super Mini Technical Reference Manual](https://documentation.espressif.com/esp32-c3_technical_reference_manual_en.pdf) by [Espressif Systems](https://www.espressif.com/)
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br/>
+<br/>
+
+---
+
+## END OF DOCUMENT
 
 
 
@@ -320,7 +345,7 @@ Distributed under the MIT License. See [`LICENSE`](../LICENSE) for more informat
 [CMake-Badge]: https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white
 [ESP--IDF-IDE-Badge]: https://img.shields.io/badge/-ESP--IDF%20IDE-white?style=for-the-badge&logo=Espressif
 
-[ESP--IDF-VSCode-Extension-Badge]: https://img.shields.io/badge/🞧-white?style=for-the-badge&logo=Espressif
+[ESP--IDF-VSCode-Extension-Badge]: https://img.shields.io/badge/+-white?style=for-the-badge&logo=Espressif
 [VSCode-Extension-Badge]: https://custom-icon-badges.demolab.com/badge/-ESP--IDF%20VSCode%20Extension-0078d7.svg?style=for-the-badge&logo=visualstudiocode&logoColor=white
 [C-Badge]: https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white
 [RISC--V-Badge]: https://img.shields.io/badge/riscv-%23283272.svg?style=for-the-badge&logo=riscv&logoColor=white
@@ -335,3 +360,9 @@ Distributed under the MIT License. See [`LICENSE`](../LICENSE) for more informat
 
 
 [Usage-Instruct-GIF]: docs/readme-assets/usage-instruct.gif
+
+
+[Facebook-Profile-Badge]: https://img.shields.io/badge/-Facebook%3A%20%20%20%20%20Dmitri%20Viggo%20Barks-1877F2?style=flat-square&logo=Facebook
+[Facebook-Profile-URL]: https://www.facebook.com/dmitriviggobarks
+[Instagram-Profile-Badge]: https://img.shields.io/badge/-Instagram%3A%20%20%20%20%20%40dmitri.brks-E1306C?style=flat-square&logo=Instagram
+[Instagram-Profile-URL]: https://www.instagram.com/dmitri.brks/
