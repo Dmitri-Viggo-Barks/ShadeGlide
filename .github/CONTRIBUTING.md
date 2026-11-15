@@ -3,10 +3,15 @@
 Thank you for taking the time to contribute to the project! To maintain project quality and consistency, refer to the details below to contribute to the repository.
 <br/>
 
+<div align="center">
+
 | <strong>Code of Conduct</strong>|
 | :---:|
-| Please be respectful, constructive, and collaborative in all issues, Pull Requests, and discussions. |
+| Please be respectful, constructive, and collaborative in all issues, Pull Requests, and discussions. <br/> Refer to the repository's [`CODE_OF_CONDUCT.md`](../.github/CODE_OF_CONDUCT.md) in `../.github/` for more information |
+
+</div>
 <br/>
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -185,9 +190,13 @@ Document any known limitations or unverified assumptions associated with the pro
 Before contributing, ensure that the development environment is configured for the components or work intended to modify or add.
 <br/>
 
+<div align="center">
+  
 | <strong> Note </strong> |
 | :----------: | 
 | Since the project is still in progress, the required tools may change overtime |
+
+</div>
 <br/>
 
 
@@ -385,10 +394,13 @@ Each journal entry file name must follow the format: <br/>
 
 A template for development journals can be found in `../docs/journals/`: [`JOURNAL_TEMPLATE.md`](../docs/journals/JOURNAL_TEMPLATE.md).
 
+<div align="center">
 
 | Note |
 | :---: |
 | Documentation does not only come in Journals. Dedicated files for documenting specific changes or additions are encouraged, provided they are focused on only a specific case and are contained in a dedicated directory in [`../docs/`](../docs/) (contained in the root `docs/` or a made dedicated directory) |
+
+</div>
 <br/>
 <br/>
 
