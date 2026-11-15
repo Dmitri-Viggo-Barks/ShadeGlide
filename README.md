@@ -37,7 +37,7 @@
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#usage---how-to-use-the-product">Usage - How To Use The Product</a></li>
     <li><a href="#project-roadmap">Project Roadmap</a></li>
-    <li><a href="#getting-started-in-developement">Getting Started In Development</a></li>
+    <li><a href="#getting-started-in-development">Getting Started In Development</a></li>
     <li><a href="#contributing-to-the-project">Contributing To The Project</a></li>
     <li><a href="#projects-license">Project's License</a></li>
     <li><a href="#projects-handler-contact">Project's Handler Contact</a></li>
@@ -58,7 +58,7 @@
 <strong>ShadeGlide</strong> is an open-source personal <strong>embedded systems</strong> project that creates a small, lightweight bot that moves from side to side along a curtain railing to <strong>open or close a curtain</strong>, <strong>wirelessly controlled</strong> by a smart switch.
 <br/>
 <br/>
-The project creates two products, a Rail Bot and a Smart Switch. Both are controlled by an <strong>ESP32-C3 Super Mini</strong> MCU, with the Smart Switch'es MCU commanding the Rail Bot's MCU using <strong>Bluetooth Low Energy</strong>. The Rail Bot moves using a <strong>GA-12 N20 DC Motor</strong> driven by a <strong>DRV8833 Motor Driver Breakout Module</strong>. When the Rail Bot moves, it stops when obstructions are on its way through its <strong>VL53L0X ToF Sensor module</strong>. Both products being powered by a rechargeable Lithium-ion battery.
+The project creates two products, a Rail Bot and a Smart Switch. Both are controlled by an <strong>ESP32-C3 Super Mini</strong> MCU, with the Smart Switch's MCU commanding the Rail Bot's MCU using <strong>Bluetooth Low Energy</strong>. The Rail Bot moves using a <strong>GA-12 N20 DC Motor</strong> driven by a <strong>DRV8833 Motor Driver Breakout Module</strong>. When the Rail Bot moves, it stops when obstructions are on its way through its <strong>VL53L0X ToF Sensor module</strong>. Both products being powered by a rechargeable Lithium-ion battery.
 
 
 <div align="center">
@@ -134,7 +134,7 @@ Use a <strong>18650 Protected 3.7V 2200mAh Lithium-ion Battery</strong> for both
 
 1. Install the Rail Bot on the curtain rail, ensure the wheels clinch on the railing adequately.
 2. Flip the Rail Bot's power switch on.
-3. Flip the Smart Switch'es power switch on.
+3. Flip the Smart Switch's power switch on.
 4. ...
 
 <div align="center">
@@ -206,7 +206,7 @@ timeline
 <summary><strong>PHASE 6: Fabricate Smart Switch Body</strong></summary>
 </details>
 <details>
-<summary><strong>PHASE 7: Deployment-Environemnt Testing</strong></summary>
+<summary><strong>PHASE 7: Deployment-Environment Testing</strong></summary>
 
 - [ ] Scenario Testing
 - [ ] Troubleshooting
@@ -219,7 +219,7 @@ timeline
 
 
 <!-- GETTING STARTED -->
-## Getting Started In Developement
+## Getting Started In Development
 
 ### Clone The Repository
 Create a directory for the local copy of the repository on your PC then open a Command Line Interface (Terminal / Powershell / etc.) pointing to that directory. Run the command below to clone the repository:
