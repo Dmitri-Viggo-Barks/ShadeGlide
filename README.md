@@ -36,7 +36,7 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#usage---how-to-use-the-product">Usage - How To Use The Product</a></li>
-    <li><a href="#project-roadmap">Project Roadmap</a></li>
+    <li><a href="#project-milestones">Project Milestones</a></li>
     <li><a href="#getting-started-in-development">Getting Started In Development</a></li>
     <li><a href="#contributing-to-the-project">Contributing To The Project</a></li>
     <li><a href="#projects-license">Project's License</a></li>
@@ -148,26 +148,26 @@ Use a <strong>18650 Protected 3.7V 2200mAh Lithium-ion Battery</strong> for both
 
 
 <!-- ROADMAP -->
-## Project Roadmap
+## Project Milestones
 
 ```mermaid
 timeline
     title Project Overview Timeline
     section CURRENT
-        PHASE 1 : Determine Rail Bot Electronic Components
+        MILESTONE 1 : Determine Rail Bot Electronic Components
     section UPCOMING
-        PHASE 2 : Develop Rail Bot Firmware
-        PHASE 3 : Determine Smart Switch Electronic Components
-        PHASE 4 : Develop Smart Switch Firmware
-        PHASE 5 : Fabricate Rail Bot Body
-        PHASE 6 : Fabricate Smart Switch Body
-        PHASE 7 : Deployment-Environment Testing
+        MILESTONE 2 : Develop Rail Bot Firmware
+        MILESTONE 3 : Determine Smart Switch Electronic Components
+        MILESTONE 4 : Develop Smart Switch Firmware
+        MILESTONE 5 : Fabricate Rail Bot Body
+        MILESTONE 6 : Fabricate Smart Switch Body
+        MILESTONE 7 : Deployment-Environment Testing
 ```
 
 
 
 <details>
-<summary><strong><i>(CURRENT)</i> PHASE 1: Determine Rail Bot Electronic Components</strong></summary>
+<summary><strong><i>(CURRENT)</i> MILESTONE 1: Determine Rail Bot Electronic Components</strong></summary>
 
 - [ ] Acquire Electronic Components
 - [ ] Test and Validate Electronic Components
@@ -175,7 +175,7 @@ timeline
 
 </details>
 <details>
-<summary><strong>PHASE 2: Develop Rail Bot Firmware</strong></summary>
+<summary><strong>MILESTONE 2: Develop Rail Bot Firmware</strong></summary>
 
 - [ ] Driver development and Testing
 - [ ] BLE Communication
@@ -184,7 +184,7 @@ timeline
 
 </details>
 <details>
-<summary><strong>PHASE 3: Determine Smart Switch Electronic Components</strong></summary>
+<summary><strong>MILESTONE 3: Determine Smart Switch Electronic Components</strong></summary>
 
 - [ ] Acquire Electronic Components
 - [ ] Test and Validate Electronic Components
@@ -192,7 +192,7 @@ timeline
 
 </details>
 <details>
-<summary><strong>PHASE 4: Develop Smart Switch Firmware</strong></summary>
+<summary><strong>MILESTONE 4: Develop Smart Switch Firmware</strong></summary>
 
 - [ ] BLE Communication
 - [ ] Application Logic
@@ -200,13 +200,13 @@ timeline
 
 </details>
 <details>
-<summary><strong>PHASE 5: Fabricate Rail Bot Body</strong></summary>
+<summary><strong>MILESTONE 5: Fabricate Rail Bot Body</strong></summary>
 </details>
 <details>
-<summary><strong>PHASE 6: Fabricate Smart Switch Body</strong></summary>
+<summary><strong>MILESTONE 6: Fabricate Smart Switch Body</strong></summary>
 </details>
 <details>
-<summary><strong>PHASE 7: Deployment-Environment Testing</strong></summary>
+<summary><strong>MILESTONE 7: Deployment-Environment Testing</strong></summary>
 
 - [ ] Scenario Testing
 - [ ] Troubleshooting
@@ -244,7 +244,7 @@ The project uses KiCad version 10 for its high-level electronics system designin
 - Smart Switch Electronic Components: to be determined
 
 #### Fabrication
-The project's final products have a fabricated 3D-printed body. The programs used for this phase of the project are yet to be determined.
+The project's final products have a fabricated 3D-printed body. The programs used for this MILESTONE of the project are yet to be determined.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
