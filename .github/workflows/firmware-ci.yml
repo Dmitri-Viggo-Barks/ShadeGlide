@@ -35,3 +35,14 @@ jobs:
           esp_idf_version: v6.1.1
           target: esp32c3
           path: 'firmware/rail-bot'
+          
+      - name: Upload Firmware Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: esp32c3-firmware-${{ github.sha }}
+          path: |
+            firmware/rail-bot/build/*.bin
+            firmware/rail-bot/build/*.elf
+            firmware/rail-bot/build/*.map
+          if-no-files-found: error
+          retention-days: 14
