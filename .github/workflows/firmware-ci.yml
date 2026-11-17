@@ -1,0 +1,37 @@
+name: Firmware CI
+
+# configure to include the smart switch in the future
+
+on:
+  push:
+    paths:
+      - 'firmware/rail-bot/**'
+      - '.github/workflows/firmware-ci.yml'
+
+  pull_request:
+    paths:
+      - 'firmware/rail-bot/**'
+      - '.github/workflows/firmware-ci.yml'
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build ESP32-C3 Firmware
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Build Firmware
+        uses: espressif/esp-idf-ci-action@v1
+        with:
+          esp_idf_version: v6.1.1
+          target: esp32c3
+          path: 'firmware/rail-bot'
