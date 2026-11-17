@@ -155,8 +155,8 @@ timeline
     title Project Overview Timeline
     section CURRENT
         MILESTONE 1 : Determine Rail Bot Electronic Components
-    section UPCOMING
         MILESTONE 2 : Develop Rail Bot Firmware
+    section UPCOMING
         MILESTONE 3 : Determine Smart Switch Electronic Components
         MILESTONE 4 : Develop Smart Switch Firmware
         MILESTONE 5 : Fabricate Rail Bot Body
@@ -175,7 +175,7 @@ timeline
 
 </details>
 <details>
-<summary><strong>MILESTONE 2: Develop Rail Bot Firmware</strong></summary>
+<summary><strong><i>(CURRENT)</i> MILESTONE 2: Develop Rail Bot Firmware</strong></summary>
 
 - [ ] Driver development and Testing
 - [ ] BLE Communication
