@@ -1,0 +1,8 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "XL63020_TPS63020_IC_DCDC_Buck_Boost_Converter_Module") (type "KiCad") (uri "/mnt/data/Projects/Personal/Project:ShadeGlide/feat--electronics-hanging-bot-electronic-components/ShadeGlide/hardware/electronics/hanging-bot/schematics/symbols/XL63020_TPS63020_IC_DCDC_Buck_Boost_Converter_Module.kicad_sym") (options "") (descr ""))
+	(lib (name "VL53L0X_ToF_Laser_Range_Sensor_Breakout_Module") (type "KiCad") (uri "/mnt/data/Projects/Personal/Project:ShadeGlide/feat--electronics-hanging-bot-electronic-components/ShadeGlide/hardware/electronics/hanging-bot/schematics/symbols/VL53L0X_ToF_Laser_Range_Sensor_Breakout_Module.kicad_sym") (options "") (descr ""))
+	(lib (name "ESP32_C3_Super_Mini") (type "KiCad") (uri "/mnt/data/Projects/Personal/Project:ShadeGlide/feat--electronics-hanging-bot-electronic-components/ShadeGlide/hardware/electronics/hanging-bot/schematics/symbols/ESP32_C3_Super_Mini.kicad_sym") (options "") (descr ""))
+	(lib (name "DRV8833_Motor_Driver_Breakout_Module") (type "KiCad") (uri "/mnt/data/Projects/Personal/Project:ShadeGlide/feat--electronics-hanging-bot-electronic-components/ShadeGlide/hardware/electronics/hanging-bot/schematics/symbols/DRV8833_Motor_Driver_Breakout_Module.kicad_sym") (options "") (descr ""))
+	(lib (name "B6284_Switching_IC_DCDC_Buck_Boost_Converter_Module") (type "KiCad") (uri "/mnt/data/Projects/Personal/Project:ShadeGlide/feat--electronics-hanging-bot-electronic-components/ShadeGlide/hardware/electronics/hanging-bot/schematics/symbols/B6284_Switching_IC_DCDC_Buck_Boost_Converter_Module.kicad_sym") (options "") (descr ""))
+)

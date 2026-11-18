@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "B6284_Switching_IC_DCDC_Buck_Boost_Converter_Module") (type "KiCad") (uri "/mnt/data/Projects/Personal/Project:ShadeGlide/feat--electronics-hanging-bot-electronic-components/ShadeGlide/hardware/electronics/hanging-bot/schematics/schematic-symbols/B6284_Switching_IC_DCDC_Buck_Boost_Converter_Module.kicad_sym") (options "") (descr ""))
+	(lib (name "XL63020_TPS63020_IC_DCDC_Buck_Boost_Converter_Module") (type "KiCad") (uri "/mnt/data/Projects/Personal/Project:ShadeGlide/feat--electronics-hanging-bot-electronic-components/ShadeGlide/hardware/electronics/hanging-bot/schematics/schematic-symbols/XL63020_TPS63020_IC_DCDC_Buck_Boost_Converter_Module.kicad_sym") (options "") (descr ""))
+)
