@@ -313,5 +313,21 @@ __marimo__/
 temporaries/
 
 # KiCad
-/hardware/electronics/rail-bot/schematics/**/*.history/
-/hardware/electronics/rail-bot/schematics/**/sym-lib-table
+/hardware/electronics/**/*.history/
+/hardware/electronics/**/*.kicad_prl
+/hardware/electronics/**/*-backups/
+/hardware/electronics/**/*.bak
+/hardware/electronics/**/*.bck
+/hardware/electronics/**/*.kicad_sch-bak
+/hardware/electronics/**/*.000
+/hardware/electronics/**/~*.lck
+/hardware/electronics/**/*.tmp
+/hardware/electronics/**/*~
+/hardware/electronics/**/~*
+/hardware/electronics/**/*.net
+/hardware/electronics/**/*.dsn
+/hardware/electronics/**/*.ses
+/hardware/electronics/**/fp-info-cache
+/hardware/electronics/**/_autosave-*
+/hardware/electronics/**/*-save.pro
+
