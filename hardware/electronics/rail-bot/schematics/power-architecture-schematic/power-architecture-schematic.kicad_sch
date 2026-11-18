@@ -1185,7 +1185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.7V 2200mAh Li-ion Battery"
+		(property "Value" "3.7V 5800mAh Li-ion Battery"
 			(at 76.454 18.034 0)
 			(show_name no)
 			(do_not_autoplace no)
