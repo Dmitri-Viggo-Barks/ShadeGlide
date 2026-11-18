@@ -35,17 +35,17 @@ The following equipment are needed for testing:
 
 
 ## Battery Cell: 18650 3.7V Protected Lithium-ion Cell
-- [X] Physical Inspection
-    - [X] No dents, corrosion, leakage, or unusual swelling
-    - [X] Both terminals and insulating ring are intact
+- [ ] Physical Inspection
+    - [ ] No dents, corrosion, leakage, or unusual swelling
+    - [ ] Both terminals and insulating ring are intact
 
 <br/>
 Inspect the battery's charging device before proceeding to the next test and ensure it is the proper charging device for the battery, the next test involves charging the battery. Charging the battery with a faulty, damaged, or with an improper charging device could damage the battery and pose significant danger to anyone nearby.
 
-- [X] Recharge Behavior
-    - [X] No unusual heating when charging
-    - [X] No unusual noise, whistling, or sizzling is heard when charging
-    - [X] No unusual coloring is seen when charging
+- [ ] Recharge Behavior
+    - [ ] No unusual heating when charging
+    - [ ] No unusual noise, whistling, or sizzling is heard when charging
+    - [ ] No unusual coloring is seen when charging
 
 <br/>
 Charge the battery only after the <strong>Physical Inspection</strong> and <strong>Recharge Behavior</strong> tests are passed, charging the battery when it failed the previous tests poses significant danger. Proceed to this test after charging.
