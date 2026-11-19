@@ -74,35 +74,37 @@ Charge the battery only after the <strong>Physical Inspection</strong> and <stro
 
 
 ## Microcontroller Unit: ESP32-C3 Super Mini
-- [ ] Physical Inspection
-    - [ ] No dents or damage
-    - [ ] No solder bridges
-    - [ ] If pins are soldered, no bent pins
-    - [ ] USB-C port and connector are firmly attached
-    - [ ] All pins match documented pins
-    - [ ] No unusual connections to pins and components on the board
+- [X] Physical Inspection
+    - [X] No dents or damage
+    - [X] No solder bridges
+    - [X] If pins are soldered, no bent pins
+    - [X] USB-C port and connector are firmly attached
+    - [X] All pins match documented pins
+    - [X] No unusual connections to pins and components on the board
 
 <br/>
 
 Proceed to the next tests only after the board passes the `Physical Inspection` test. Connect the board to the development machine using its USB port.
 
-- [ ] Board Recognition
-    - [ ] On-board LED lights up
-    - [ ] USB driver recognizes the board as serial device without errors
-    - [ ] If came as pre-flashed with on-board LED blinking, preflashed firmware runs
+- [X] Board Recognition
+    - [X] On-board LED lights up
+    - [X] USB driver recognizes the board as serial device without errors
+    - [X] If came as pre-flashed with on-board LED blinking, preflashed firmware runs
 
 <br/>
 
-- [ ] Power Pins Voltage-Outputs
-    - [ ] 3V3 pin outputs ~3.3V
-    - [ ] 5V pin outputs ~5V
+- [X] Power Pins Voltage-Outputs
+    - [X] 3V3 pin outputs ~3.3V
+    - [X] 5V pin outputs ~5V
 
 <br/>
 Flash and run a test program to the board.
 
-- [ ] Flashing Ability
-    - [ ] Flashing is successful
-    - [ ] ESP-IDF `hello_world` example runs expectedly (or run a serial print test in Arduino IDE, though prefer ESP-IDF tests)
+- [X] Flashing Ability
+    - [X] Flashing is successful
+    - [X] ESP-IDF `hello_world` example runs expectedly (or run a serial print test in Arduino IDE, though prefer ESP-IDF tests)
+    - [X] Blinking on-board LED firmware runs expectedly (or run a serial print test in Arduino IDE, though prefer ESP-IDF tests)
+    - [X] GPIO pins voltage-output levels are expected
 
 <br/>
 
