@@ -129,8 +129,8 @@ Flash and run a test program to the board.
 
 <br/>
 
-- [ ] Terminal Resistance
-    - [ ] Finite resistance reading from terminals of the component (not an open circuit or OL) <br/>
+- [X] Terminal Resistance
+    - [X] Finite resistance reading from terminals of the component (not an open circuit or OL) <br/>
     <i>[place both probes of a Digital Multimeter to the component's terminals]</i>
 
 <br/>
