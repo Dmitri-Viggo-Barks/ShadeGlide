@@ -222,7 +222,57 @@ Flash and run an I2C firmware test program that outputs the device address of th
 
 
 ## Motor Driver: DRV8833 H-Bridge Motor Driver Breakout Module
+- [ ] Physical Inspection
+    - [ ] No dents or damage
+    - [ ] No solder bridges
+    - [ ] If pins are soldered, no bent pins
+    - [ ] All pins match documented pins
+    - [ ] No unusual connections to pins and components on the board
 
+<br/>
+
+Proceed to the next tests only after the board passes the `Physical Inspection` test. Connect the board to a power supply. The power supply must output a voltage within the driver module's rated voltage input. Set `nSLEEP` (or `EEP` for certain boards) high.
+
+- [ ] Voltage Input Handling
+    - [ ] Measured voltage input within the module is about the same as the power supply's output voltage (Measure VCC to GND on the module)
+
+<br/>
+
+- [ ] `nSLEEP` Pin Ability
+    - [ ] Pulling `nSLEEP` high allows for `Voltage Input Handling` test to be replicated
+    - [ ] Pulling `nSLEEP` low does not allow for `Voltage Input Handling` test to be replicated (no readings)
+
+<br/>
+
+Proceed to the next tests only after the board passes the `Voltage Input Handling` test. Before testing with a DC Motor, disconnect the power supply and set the power supply's output voltage to the DC Motor's rated voltage input. Connect a DC motor to the board alongside the power supply connected to the board. Don't stall or obstruct the DC Motor mechanically when testing.
+
+- [ ] Motor Control
+    - [ ] Channel A
+        - [ ] Setting both IN1 and IN2 low sets DC Motor to coast / fast-decay
+        - [ ] Setting IN1 low and IN2 high sets DC Motor to reverse
+        - [ ] Setting IN1 high and IN2 low sets DC Motor to forward
+        - [ ] setting both IN1 and IN2 high sets DC Motor to brake / slow-decay
+    - [ ] Channel B
+        - [ ] Setting both IN3 and IN4 low sets DC Motor to coast / fast-decay
+        - [ ] Setting IN3 low and IN4 high sets DC Motor to reverse
+        - [ ] Setting IN3 high and IN4 low sets DC Motor to forward
+        - [ ] setting both IN3 and IN4 high sets DC Motor to brake / slow-decay
+
+<br/>
+
+Flash and run a test program on an MCU that iterates over the different motor control states, controlling the motor driver module. 
+
+- [ ] MCU-controlled DC Motor Control
+    - [ ] Channel A works expectedly
+    - [ ] Channel B works expectedly
+
+<br/>
+
+
+
+### End of Tests
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br/>
 
 
 ## DC Motor: GA12-N20 1:100 RR DC Micro Motor
