@@ -38,7 +38,7 @@ The following equipment are needed for testing:
 ---
 
 
-## Battery Cell: 18650 3.7V Protected Lithium-ion Cell
+## Battery Cell: 18650 3.7V 5800mAh Protected Lithium-ion Cell
 - [ ] Physical Inspection
     - [ ] No dents, corrosion, leakage, or unusual swelling
     - [ ] Both terminals and insulating ring are intact
