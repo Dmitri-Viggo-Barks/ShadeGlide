@@ -1,3 +1,7 @@
+<a id="readme-top"></a>
+
+
+
 # Rail Bot Electronic Component Validation Testing
 
 ## Equipment Needed
@@ -62,6 +66,7 @@ Charge the battery only after the <strong>Physical Inspection</strong> and <stro
 <br/>
 
 ### End of Tests
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br/>
 
 
@@ -128,6 +133,9 @@ Connect the outputs of the board to a low-load, low-load in this case makes it s
 
 
 
+### End of Tests
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br/>
 
 
 ## Motor Buck-Boost Converter: B6284o Adjustable Output BBC Module
@@ -172,11 +180,45 @@ Flash and run a test program to the board.
 
 
 ### End of Tests
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br/>
 
 
 ## Time-of-Flight Sensor: VL53L0X ToF Laser-Range Sensor Module
+- [X] Physical Inspection
+    - [X] No dents or damage
+    - [X] No solder bridges
+    - [X] If pins are soldered, no bent pins
+    - [X] All pins match documented pins
+    - [X] No unusual connections to pins and components on the board
 
+<br/>
+
+Proceed to the next tests only after the board passes the `Physical Inspection` test. Connect the board to the development machine without connecting GPIO1 and XSHUT yet. Power the board with its rated voltage input. Flash and run an I2C firmware test program to the board. 
+
+- [ ] Sensor Output Ability
+    - [ ] Data output from the sensor module is capabale
+
+<br/>
+
+- [ ] Sensor Data Accuracy
+    - [ ] Data output is considerably accurate within its rated sensing ranges and intended environment
+
+<br/>
+
+Flash and run an I2C firmware test program that outputs the device address of the sensor module to the board. 
+
+- [ ] Registry Firmware Configurability
+    - [ ] Device address is `0x29` when default configuration is used
+    - [ ] Device address is configurable to a different available address
+
+<br/>
+
+
+
+### End of Tests
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br/>
 
 
 ## Motor Driver: DRV8833 H-Bridge Motor Driver Breakout Module
@@ -226,6 +268,7 @@ Reverse the connections, the previously GND connected terminal now connects to p
 <br/>
 
 ### End of Tests
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br/>
 
 
