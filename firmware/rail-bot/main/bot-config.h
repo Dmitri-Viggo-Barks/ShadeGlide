@@ -19,7 +19,14 @@ Sections: add "TODO" if not configured, add "COMMENT" if comments are in it
 #define BOT_GPIO_I2C_SDA GPIO_NUM_4
 #define BOT_GPIO_I2C_SCL GPIO_NUM_3
 
-#define BOT_GPIO_STATUS_LED GPIO_NUM_10
+#define BOT_TOF_1_XSHUT_GPIO GPIO_NUM_1
+#define BOT_TOF_2_XSHUT_GPIO GPIO_NUM_0
+
+#define BOT_MD_IN1_GPIO GPIO_NUM_20
+#define BOT_MD_IN2_GPIO GPIO_NUM_21
+#define BOT_MD_SLEEP_GPIO GPIO_NUM_5
+
+#define BOT_STAT_LED_GPIO GPIO_NUM_10
 
 // I2C Config
 #define BOT_I2C_FREQUENCY_HZ 100000U
@@ -28,23 +35,14 @@ Sections: add "TODO" if not configured, add "COMMENT" if comments are in it
 #define BOT_TOF_DEF_ADDR 0x29U
 
 // ToF Sensor Config
-#define BOT_TOF_1_XSHUT_GPIO GPIO_NUM_1
-#define BOT_TOF_2_XSHUT_GPIO GPIO_NUM_0
-
 #define BOT_TOF_XSHUT_EN 1
 #define BOT_TOF_XSHUT_DIS 0
 
 // Motor Driver Config
-#define BOT_MD_IN1_GPIO GPIO_NUM_20
-#define BOT_MD_IN2_GPIO GPIO_NUM_21
-#define BOT_MD_SLEEP_GPIO GPIO_NUM_5
-
 #define BOT_MD_EN 1
 #define BOT_MD_SLEEP 0
 
 // Status LED Config
-#define BOT_LED_GPIO GPIO_NUM_10
-
 #define BOT_LED_ON 1
 #define BOT_LED_OFF 0
 
