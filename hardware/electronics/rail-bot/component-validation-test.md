@@ -327,7 +327,8 @@ Flash and run a test program on an MCU that iterates over the different motor co
     <i>[place both probes of a Digital Multimeter to the component's terminals]</i>
 
 <br/>
-Apply the rated power for the component for the next tests. One terminal positive, the other GND.
+
+Proceed to the next tests only after the board passes the `Physical Inspection` test. Apply the rated power for the component for the next tests. One terminal positive, the other GND.
 
 - [ ] Expected Power-Applied Behavior, Case 1
     - [ ] The motor rotates
