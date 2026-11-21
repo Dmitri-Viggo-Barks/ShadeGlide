@@ -136,7 +136,48 @@ Connect the outputs of the board to a low-load, low-load in this case makes it s
 
 
 ## Motor Buck-Boost Converter: B6284o Adjustable Output BBC Module
+- [ ] Physical Inspection
+    - [ ] No dents or damage
+    - [ ] No unintended or expected solder bridges
+    - [ ] If pins are soldered, no bent pins
+    - [ ] All pins match documented pins
+    - [ ] No unusual connections to pins and components on the board
 
+<br/>
+
+Proceed to the next tests only after the board passes the `Physical Inspection` test. Connect the board to a controlled power supply. Set voltage input as expected voltage output from battery, and set current limit to 300mA as the first test is done under no load. Leave the output terminals disconnected. Positive terminal (power supply) connects to IN+ (board), Negative terminal (power supply) connects to IN- (board). Connect EN to IN+
+
+- [ ] No-Load and PS off Voltage Output
+    - [ ] Voltage-output is expected
+
+- [ ] No-Load and PS off Behavior
+    - [ ] No unusual heating or brightening of components
+    - [ ] No unusual sounds
+
+<br/>
+
+Proceed to the next tests only after the board passes the `No-Load Voltage Output` test. Connect the outputs of the board to a load. For simplicity, use a resistor with a resistance $R$ that is close and above $R_m = \frac{v^2}{P} = \frac{3.7^2}{P}$ as the load. Refer to the resistor's data sheet or do a physical inspection to determine its rated wattage $P$.
+
+- [ ] Loaded Voltage Output
+    - [ ] Voltage-output is expected
+
+- [ ] Loaded and PS off Behavior
+    - [ ] No unusual heating or brightening of components
+    - [ ] No unusual sounds
+
+<br/>
+
+- [ ] Operation Behavior
+    - [ ] Voltage-output is expected at input voltage ranging from the board's minimum voltage input rating until 3.7V
+    - [ ] Voltage-output is expected at input voltage ranging from 3.7V until safely close to the board's maximum voltage input rating <strong><br/>(DO NOT EXCEED THE RATED MAXIMUM, IT IS ADVISED TO TEST UNTIL SAFELY CLOSE TO IT TO AVOID DAMAGING THE BOARD)</strong>
+
+<br/>
+
+
+
+### End of Tests
+<p align="right">(<a href="#component-list">back to components list</a>)</p>
+<br/>
 
 
 ## Microcontroller Unit: ESP32-C3 Super Mini
