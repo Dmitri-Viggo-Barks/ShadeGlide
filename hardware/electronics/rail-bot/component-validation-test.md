@@ -17,7 +17,7 @@ The following equipment are needed for testing:
 <details>
   <summary>Components List</summary>
   <ol>
-    <li><a href="#battery-cell-18650-37v-protected-lithium-ion-cell">Battery Cell: 18650 3.7V Protected Lithium-ion Cell</a></li>
+    <li><a href="#battery-cell-18650-37v-5800mah-protected-lithium-ion-cell">Battery Cell: 18650 3.7V 5800mAh Protected Lithium-ion Cell</a></li>
     <li><a href="#logic-buck-boost-converter-xl63020-w-ti-tps63020-bbc-module">Logic Buck-Boost Converter: XL63020 w/ TI TPS63020 BBC Module</a></li>
     <li><a href="#motor-buck-boost-converter-b6284o-adjustable-output-bbc-module">Motor Buck-Boost Converter: B6284o Adjustable Output BBC Module</a></li>
     <li><a href="#microcontroller-unit-esp32-c3-super-mini">Microcontroller Unit: ESP32-C3 Super Mini</a></li>
@@ -58,7 +58,7 @@ Charge the battery only after the <strong>Physical Inspection</strong> and <stro
 <br/>
 
 - [ ] Controlled oading for Current Capacity
-    - [ ] Battery lasts enough to closely match 2200mAh
+    - [ ] Battery lasts enough to closely match 5800mAh
 
 <br/>
 
