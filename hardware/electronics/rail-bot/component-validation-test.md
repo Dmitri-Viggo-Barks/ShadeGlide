@@ -1,7 +1,3 @@
-<a id="readme-top"></a>
-
-
-
 # Rail Bot Electronic Component Validation Testing
 
 ## Equipment Needed
@@ -15,11 +11,11 @@ The following equipment are needed for testing:
 
 ---
 <br/>
-
+<a id="component-list"></a>
 
 <div align=center>
 <details>
-  <summary>Component List</summary>
+  <summary>Components List</summary>
   <ol>
     <li><a href="#battery-cell-18650-37v-protected-lithium-ion-cell">Battery Cell: 18650 3.7V Protected Lithium-ion Cell</a></li>
     <li><a href="#logic-buck-boost-converter-xl63020-w-ti-tps63020-bbc-module">Logic Buck-Boost Converter: XL63020 w/ TI TPS63020 BBC Module</a></li>
@@ -67,7 +63,7 @@ Charge the battery only after the <strong>Physical Inspection</strong> and <stro
 <br/>
 
 ### End of Tests
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#component-list">back to components list</a>)</p>
 <br/>
 
 
@@ -135,7 +131,7 @@ Connect the outputs of the board to a low-load, low-load in this case makes it s
 
 
 ### End of Tests
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#component-list">back to components list</a>)</p>
 <br/>
 
 
@@ -181,7 +177,7 @@ Flash and run a test program to the board.
 
 
 ### End of Tests
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#component-list">back to components list</a>)</p>
 <br/>
 
 
@@ -218,7 +214,7 @@ Flash and run an I2C firmware test program that outputs the device address of th
 
 
 ### End of Tests
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#component-list">back to components list</a>)</p>
 <br/>
 
 
@@ -272,7 +268,7 @@ Flash and run a test program on an MCU that iterates over the different motor co
 
 
 ### End of Tests
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#component-list">back to components list</a>)</p>
 <br/>
 
 
@@ -319,7 +315,7 @@ Reverse the connections, the previously GND connected terminal now connects to p
 <br/>
 
 ### End of Tests
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#component-list">back to components list</a>)</p>
 <br/>
 
 
