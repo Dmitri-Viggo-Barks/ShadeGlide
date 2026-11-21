@@ -6,4 +6,4 @@
 cmake_minimum_required(VERSION 3.22)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(rail_bot)           # ESP-IDF autogenerates "rail-bot" based on project directory, rename to "rail_bot" to follow programming conventions
+project(rail_bot)
