@@ -10,7 +10,7 @@ The following equipment are needed for testing:
 <br/>
 
 ---
-<br/>
+
 <a id="component-list"></a>
 
 <div align=center>
@@ -25,12 +25,9 @@ The following equipment are needed for testing:
     <li><a href="#motor-driver-drv8833-h-bridge-motor-driver-breakout-module">Motor Driver: DRV8833 H-Bridge Motor Driver Breakout Module</a></li>
     <li><a href="#dc-motor-ga12-n20-1100-rr-dc-micro-motor">DC Motor: GA12-N20 1:100 RR DC Micro Motor</a></li>
     <li><a href="#status-led-through-hole-led">Status LED: Through-Hole LED</a></li>
-    <li><a href="#status-buzzer-active-piezo-buzzer">Status Buzzer: Active Piezo Buzzer</a></li>
   </ol>
 </details>
 </div>
-
-<br/>
 
 ---
 
@@ -338,6 +335,7 @@ Proceed to the next tests only after the board passes the `Physical Inspection` 
     - [ ] Not unusually hot
 
 <br/>
+
 Reverse the connections, the previously GND connected terminal now connects to positive, reverse the other the same way.
 
 - [ ] Expected Power-Applied Behavior, Case 2
