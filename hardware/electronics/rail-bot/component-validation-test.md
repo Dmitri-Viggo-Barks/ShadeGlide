@@ -10,6 +10,7 @@ The following equipment are needed for testing:
 - Power Supply Unit (Bench/etc.)
 - Jumper Wires
 - Breadboard (Optional, for circuit prototyping)
+- Resistor (For Load Testing)
 <br/>
 
 ---
