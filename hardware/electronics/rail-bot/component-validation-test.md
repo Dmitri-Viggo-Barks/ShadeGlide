@@ -362,7 +362,24 @@ Reverse the connections, the previously GND connected terminal now connects to p
 
 
 ## Status LED: Through-Hole LED
+- [ ] Physical Inspection
+    - [ ] No dents or damage
+    - [ ] Both terminals are intact
+
+<br/>
+
+Proceed to the next tests only after the board passes the `Physical Inspection` test. Connect a resistor with with a resistance $R$ that is close and above $R_m = \frac{v^2}{P} = \frac{3.7^2}{P}$ to a power supply that outputs the LED's rated voltage input. Refer to the resistor's data sheet or do a physical inspection to determine its rated wattage $P$. Connect the LED in series with the resistor.
+
+- [ ] Operating behavior
+    - [ ] LED lights up expectedly
+
+<br/>
+
+### End of Tests
+<p align="right">(<a href="#component-list">back to components list</a>)</p>
+<br/>
 
 
+---
 
-## Status Buzzer: Active Piezo Buzzer
+## END OF DOCUMENT
