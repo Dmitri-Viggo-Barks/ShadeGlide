@@ -13,7 +13,6 @@ Sections: add "TODO" if not configured, add "COMMENT" if comments are in it
 #define BOT_CONFIG_H
 
 #include "driver/gpio.h"
-#include <stdint.h>
 
 // Hardware Config
 #define BOT_GPIO_I2C_SDA GPIO_NUM_4
