@@ -48,7 +48,7 @@ Two types of files will be made for the firmware of the Rail Bot: `.C` C and `.h
 | :-------------------------: | :-----: | :------------: |
 | `main.c`                    | Firmware entry point and system initialization | ESP-IDF HAL | 
 | `bot-controller.c` / `.h`   | Application layer logic and movement coordination | Standard C |
-| `bot-config.h`              | GPIO assignments and hardware configuration | Header |
+| `bot-config.h`              | GPIO assignments and hardware configuration | Bare Defines |
 | `ble-comms.c` / `.h`        | Bluetooth Low Energy Communication with Smart Switch MCU | ESP-IDF HAL |
 | `motor-driver.c` / `.h`     | DRV8833 Motor Driver control | Bare-Metal C |
 | `i2c-driver.c` / `.h`       | I2C Communication between MCU and ToF sensors | Bare-Metal C |
@@ -57,7 +57,6 @@ Two types of files will be made for the firmware of the Rail Bot: `.C` C and `.h
 | `status-indicator.c` / `.h` | Status LED and active piezo buzzer behavior | Bare-Metal C |
 | `CMakeLists.txt`            | Firmware build configuration | CMake |
 | `sdkconfig`                 | Stores compile-time firmware configuration | ESP-IDF Generated |
-| `README.md`                 | Standard firmware README | Markdown |
 
 <br/> <br/>
 ---
