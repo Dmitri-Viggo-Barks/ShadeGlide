@@ -1,2 +1,6 @@
 CompileFlags:
-    Remove: [-f*, -m*]
+    BuiltinHeaders: QueryDriver
+    Remove: [-m*, -f*, -g*]
+
+Diagnostics:
+    UnusedIncludes: None
