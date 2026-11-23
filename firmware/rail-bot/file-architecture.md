@@ -56,8 +56,6 @@ Two types of files will be made for the firmware of the Rail Bot: `.C` C and `.h
 | `vl53l0x.c` / `.h`          | VL53L0X sensor configuration and measurement | Custom Driver (i2c-driver) |
 | `status-indicator.c` / `.h` | Status LED and active piezo buzzer behavior | Bare-Metal C |
 | `CMakeLists.txt`            | Firmware build configuration | CMake |
-| `sdkconfig`                 | Stores compile-time firmware configuration | ESP-IDF Generated |
-| `README.md`                 | Standard firmware README | Markdown |
 
 <br/> <br/>
 ---
