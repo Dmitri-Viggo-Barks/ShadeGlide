@@ -12,20 +12,18 @@ Sections: add "TODO" if not configured, add "COMMENT" if comments are in it
 #ifndef BOT_CONFIG_H
 #define BOT_CONFIG_H
 
-#include "driver/gpio.h"
-
 // Hardware Config
-#define BOT_GPIO_I2C_SDA GPIO_NUM_4
-#define BOT_GPIO_I2C_SCL GPIO_NUM_3
+#define BOT_I2C_SDA_GPIO 4
+#define BOT_I2C_SCL_GPIO 3
 
-#define BOT_TOF_1_XSHUT_GPIO GPIO_NUM_1
-#define BOT_TOF_2_XSHUT_GPIO GPIO_NUM_0
+#define BOT_TOF_1_XSHUT_GPIO 1
+#define BOT_TOF_2_XSHUT_GPIO 0
 
-#define BOT_MD_IN1_GPIO GPIO_NUM_20
-#define BOT_MD_IN2_GPIO GPIO_NUM_21
-#define BOT_MD_SLEEP_GPIO GPIO_NUM_5
+#define BOT_MD_IN1_GPIO 20
+#define BOT_MD_IN2_GPIO 21
+#define BOT_MD_SLEEP_GPIO 5
 
-#define BOT_STAT_LED_GPIO GPIO_NUM_10
+#define BOT_STAT_LED_GPIO 10
 
 // I2C Config
 #define BOT_I2C_FREQUENCY_HZ 100000U
