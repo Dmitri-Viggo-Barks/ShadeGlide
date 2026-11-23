@@ -8,13 +8,11 @@
 </div>
 
 
-
-
 <!-- PROJECT LOGO -->
-<br />
+<br/>
 <div align="center">
   <a href="https://github.com/Dmitri-Viggo-Barks/ShadeGlide">
-    <img src="docs/readme-assets/logo.png" alt="Logo" width="80" height="80">
+    <img src="../docs/assets/readme-assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">ShadeGlide</h3>
@@ -28,7 +26,7 @@
   </p>
 </div>
 
-
+---
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -45,15 +43,16 @@
   </ol>
 </details>
 
+---
 
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
-<div align="center">
+<!-- <div align="center">
 
-![Project Graphic][Project-Graphic]
+  <a href="img directory URL goes here">
+    <img src="../docs/assets/readme-assets/product-graphic.png" alt="Logo" width="80" height="80">
+  </a>
 
-</div>
+</div> -->
 
 <strong>ShadeGlide</strong> is an open-source personal <strong>embedded systems</strong> project that creates a small, lightweight bot that moves from side to side along a curtain railing to <strong>open or close a curtain</strong>, <strong>wirelessly controlled</strong> by a smart switch.
 <br/>
@@ -80,48 +79,17 @@ The project creates two products, a Rail Bot and a Smart Switch. Both are contro
 ![wireless-communication-topic][wireless-communication-topic-Badge]
 
 </div>
-<br/>
 
 
 <div align="center">
 
-### Built With
-![VSCode][VSCode-Badge] &ensp;
-![Espressif][Espressif-Badge] &ensp;
+### Built With and In
+
+![ESP--IDF-VSCode-Extension][ESP--IDF-VSCode-Extension-Badge]![VSCode-Extension][VSCode-Extension-Badge] &ensp;
 ![KiCad][KiCad-Badge] &ensp;
 ![CMake][CMake-Badge] &ensp;
-![ESP--IDF-IDE][ESP--IDF-IDE-Badge]
-
-</div>
-
-
-<div align="center">
-
-### Built In
-![ESP--IDF-VSCode-Extension][ESP--IDF-VSCode-Extension-Badge]![VSCode-Extension][VSCode-Extension-Badge] &ensp;
 ![C][C-Badge] &ensp;
 ![RISC--V][RISC--V-Badge]
-
-</div>
-
-
-<div align="center">
-
-### Tested With and In
-![Arduino IDE][Arduino-IDE-Badge] &ensp;
-![Adafruit][Adafruit-Badge] &ensp;
-![C++][C++-Badge] <br/>
-<strong> and physical hardware validation and debugging </strong>
-
-</div>
-
-
-<div align="center">
-
-### Documented In
-![Git][Git-Badge] &ensp;
-![GitHub][GitHub-Badge] &ensp;
-![Markdown][Markdown-Badge]
 
 </div>
 
@@ -139,7 +107,9 @@ Use a <strong>18650 Protected 3.7V 2200mAh Lithium-ion Battery</strong> for both
 
 <div align="center">
 
-![Usage Instruct GIF][Usage-Instruct-GIF]
+  <a href="Instruction GIF directory URL">
+    <img src="../docs/assets/readme-assets/intruct-use.gif" alt="Instruction GIF" width="80" height="80">
+  </a>
 
 </div>
 
@@ -318,15 +288,11 @@ The following sources are acknowledged to be useful for the development of the p
 
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!-- LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/Dmitri-Viggo-Barks/ShadeGlide.svg?style=for-the-badge
 [contributors-url]: https://github.com/Dmitri-Viggo-Barks/ShadeGlide/graphs/contributors
 [license-shield]: https://img.shields.io/github/license/Dmitri-Viggo-Barks/ShadeGlide.svg?style=for-the-badge
 [license-url]: https://github.com/Dmitri-Viggo-Barks/ShadeGlide/blob/master/LICENSE.txt
-
-
-[project-graphic]: docs/readme-assets/project-graphic.png
 
 
 [3d--printing-topic-Badge]: https://img.shields.io/badge/-3d--printing-green?style=flat
@@ -344,27 +310,12 @@ The following sources are acknowledged to be useful for the development of the p
 [wireless-communication-topic-Badge]: https://img.shields.io/badge/-wireless%20communication-green?style=flat
 
 
-[VSCode-Badge]: https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visualstudiocode&logoColor=white
-[Espressif-Badge]: https://img.shields.io/badge/espressif-%23E7352C.svg?style=for-the-badge&logo=espressif&logoColor=white
 [KiCad-Badge]: https://img.shields.io/badge/kicad-%23314CB0.svg?style=for-the-badge&logo=kicad&logoColor=white
 [CMake-Badge]: https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white
-[ESP--IDF-IDE-Badge]: https://img.shields.io/badge/-ESP--IDF%20IDE-white?style=for-the-badge&logo=Espressif
-
 [ESP--IDF-VSCode-Extension-Badge]: https://img.shields.io/badge/+-white?style=for-the-badge&logo=Espressif
 [VSCode-Extension-Badge]: https://custom-icon-badges.demolab.com/badge/-ESP--IDF%20VSCode%20Extension-0078d7.svg?style=for-the-badge&logo=visualstudiocode&logoColor=white
 [C-Badge]: https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white
 [RISC--V-Badge]: https://img.shields.io/badge/riscv-%23283272.svg?style=for-the-badge&logo=riscv&logoColor=white
-
-[Arduino-IDE-Badge]: https://img.shields.io/badge/Arduino%20IDE-%2300979D.svg?style=for-the-badge&logo=Arduino&logoColor=white
-[Adafruit-Badge]: https://img.shields.io/badge/-Adafruit-080807?style=for-the-badge&logo=adafruit
-[C++-Badge]: https://img.shields.io/badge/c%2B%2B-%2300599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white
-
-[Git-Badge]: https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white
-[GitHub-Badge]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
-[Markdown-Badge]: https://img.shields.io/badge/-markdown-080807?style=for-the-badge&logo=markdown
-
-
-[Usage-Instruct-GIF]: docs/readme-assets/usage-instruct.gif
 
 
 [Facebook-Profile-Badge]: https://img.shields.io/badge/-Facebook%3A%20%20%20%20%20Dmitri%20Viggo%20Barks-1877F2?style=flat-square&logo=Facebook
