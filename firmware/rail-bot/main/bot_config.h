@@ -13,35 +13,35 @@ Sections: add "TODO" if not configured, add "COMMENT" if comments are in it
 #define BOT_CONFIG_H
 
 // Hardware Config
-#define BOT_I2C_SDA_GPIO 4
-#define BOT_I2C_SCL_GPIO 3
+#define BOT_I2C_SDA_GPIO					4
+#define BOT_I2C_SCL_GPIO 					3
 
-#define BOT_TOF_1_XSHUT_GPIO 1
-#define BOT_TOF_2_XSHUT_GPIO 0
+#define BOT_TOF_1_XSHUT_GPIO 				1
+#define BOT_TOF_2_XSHUT_GPIO 				0
 
-#define BOT_MD_IN1_GPIO 20
-#define BOT_MD_IN2_GPIO 21
-#define BOT_MD_SLEEP_GPIO 5
+#define BOT_MD_IN1_GPIO 					20
+#define BOT_MD_IN2_GPIO 					21
+#define BOT_MD_SLEEP_GPIO 					5
 
-#define BOT_STAT_LED_GPIO 10
+#define BOT_STAT_LED_GPIO 					10
 
 // I2C Config
-#define BOT_I2C_FREQUENCY_HZ 100000U
+#define BOT_I2C_FREQUENCY_HZ 				100000U
 // COMMENT: Test if 400kHz could be used, since there are 2 VL53L0X sensors...
 
-#define BOT_TOF_DEF_ADDR 0x29U
+#define BOT_TOF_DEF_ADDR 					0x29U
 
 // ToF Sensor Config
-#define BOT_TOF_XSHUT_EN 1
-#define BOT_TOF_XSHUT_DIS 0
+#define BOT_TOF_XSHUT_EN 					1
+#define BOT_TOF_XSHUT_DIS 					0
 
 // Motor Driver Config
-#define BOT_MD_EN 1
-#define BOT_MD_SLEEP 0
+#define BOT_MD_EN 							1
+#define BOT_MD_SLEEP 						0
 
 // Status LED Config
-#define BOT_LED_ON 1
-#define BOT_LED_OFF 0
+#define BOT_LED_ON 							1
+#define BOT_LED_OFF 						0
 
 // BLE Config
 
