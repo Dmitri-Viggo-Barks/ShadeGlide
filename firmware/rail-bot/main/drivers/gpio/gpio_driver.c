@@ -35,6 +35,7 @@ void gpio_set_direction(uint8_t gpio_num, gpio_direction_t direction) {
 
 	if (direction == GPIO_OUTPUT){
 		GPIO_FUNCn_OUT_SEL_CFG_REG(gpio_num) |= GPIO_MATRIX_SIMPLE_GPIO_OUT_PERI;
+		GPIO_FUNCn_OUT_SEL_CFG_REG(gpio_num) |= GPIO_FUNC_OEN_SEL_MASK;
 
 		GPIO_ENABLE_W1TS_REG = (GPIO_ENABLE_W1TS_REG_VAL << gpio_num);
 	}
