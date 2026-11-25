@@ -23,7 +23,7 @@ Sections: add "TODO" if not configured, add "COMMENT" if comments are in it
 #define BOT_MD_IN2_GPIO 					21
 #define BOT_MD_SLEEP_GPIO 					5
 
-#define BOT_STAT_LED_GPIO 					10
+#define BOT_STATLED_GPIO 					10
 
 // I2C Config
 #define BOT_I2C_FREQUENCY_HZ 				100000U
