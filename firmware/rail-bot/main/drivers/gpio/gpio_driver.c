@@ -36,7 +36,6 @@ void gpio_set_direction(uint8_t gpio_num, gpio_direction_t direction) {
 	gpio_select_gpio_func(gpio_num);
 
 	if (direction == GPIO_OUTPUT){
-		GPIO_FUNCn_OUT_SEL_CFG_REG(gpio_num) &= ~GPIO_FUNC_OUT_SEL_MASK;
 		GPIO_FUNCn_OUT_SEL_CFG_REG(gpio_num) |= GPIO_MATRIX_SIMPLE_GPIO_OUT_PERI;
 
 		GPIO_FUNCn_OUT_SEL_CFG_REG(gpio_num) &= ~GPIO_FUNC_OEN_SEL_MASK;
