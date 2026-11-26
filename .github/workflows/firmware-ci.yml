@@ -5,12 +5,12 @@ name: Firmware CI
 on:
   push:
     paths:
-      - 'firmware/rail-bot/**'
+      - 'firmware/rail_bot/**'
       - '.github/workflows/firmware-ci.yml'
 
   pull_request:
     paths:
-      - 'firmware/rail-bot/**'
+      - 'firmware/rail_bot/**'
       - '.github/workflows/firmware-ci.yml'
 
   workflow_dispatch:
@@ -34,4 +34,4 @@ jobs:
         with:
           esp_idf_version: v6.1.1
           target: esp32c3
-          path: 'firmware/rail-bot'
+          path: 'firmware/rail_bot'
