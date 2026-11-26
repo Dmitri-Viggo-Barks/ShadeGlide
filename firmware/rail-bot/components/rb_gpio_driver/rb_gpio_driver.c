@@ -1,6 +1,8 @@
 #include "esp32c3_gpio_regs.h"
 #include "rb_gpio_driver.h"
 
+#include <stdint.h>
+
 
 #define GPIO_PIN_COUNT						22U
 
@@ -10,6 +12,9 @@
 #define GPIO_ENABLE_W1TS_REG_VAL    		1U
 
 #define GPIO_ENABLE_W1TC_REG_VAL			1U
+
+#define GPIO_OUT_W1TS_VAL					1U
+#define GPIO_OUT_W1TC_VAL					1U
 
 
 
@@ -44,5 +49,33 @@ void rb_gpio_set_direction(uint8_t gpio_num, rb_gpio_direction_t direction) {
 }
 
 void rb_gpio_set_level(uint8_t gpio_num, rb_gpio_level_t level){
+	if (gpio_num >= GPIO_PIN_COUNT){
+		return;
+	}
 
+	if (level == GPIO_HIGH){
+		GPIO_OUT_W1TS_REG = (GPIO_OUT_W1TS_VAL << gpio_num);
+	}
+	else if (level == GPIO_LOW){
+		GPIO_OUT_W1TC_REG = (GPIO_OUT_W1TC_VAL << gpio_num);
+	}
+}
+
+/* 
+rb_gpio_get_level checks the actual physical voltage level, 
+not the commanded output voltage level. Maybe, if commanded
+output voltage output reading is needed, have 
+`rb_gpio_get_level_physical` and `rb_gpio_get_level_commanded`?
+*/
+
+rb_gpio_level_t rb_gpio_get_level(uint8_t gpio_num){
+	if (gpio_num >= GPIO_PIN_COUNT){
+		return NULL; // honestly idk what to put so NULL it is :P
+	}
+
+	if ((GPIO_IN_REG >> gpio_num) & 1U){
+		return GPIO_HIGH;
+	}
+
+	return GPIO_LOW;
 }

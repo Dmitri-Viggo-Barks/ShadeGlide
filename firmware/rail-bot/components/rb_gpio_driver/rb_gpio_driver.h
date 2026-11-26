@@ -15,9 +15,14 @@ typedef enum {
 } rb_gpio_level_t;
 
 
-void rb_gpio_set_direction	(uint8_t gpio_num, rb_gpio_direction_t direction);
-void rb_gpio_set_level		(uint8_t gpio_num, rb_gpio_level_t level);
-void rb_gpio_get_level		(uint8_t gpio_num);
+void rb_gpio_set_direction			(uint8_t gpio_num, rb_gpio_direction_t direction);
+void rb_gpio_set_level				(uint8_t gpio_num, rb_gpio_level_t level);
+rb_gpio_level_t rb_gpio_get_level	(uint8_t gpio_num);
+
+/* 
+rb_gpio_get_level checks the actual physical voltage level, 
+not the commanded output voltage level. 
+*/
 
 
 #endif
