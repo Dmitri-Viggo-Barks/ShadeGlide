@@ -1,10 +1,10 @@
 idf_component_register(
     SRCS 
-        "main.c"
+        "rb_gpio_driver.c"
     
     INCLUDE_DIRS 
         "."
     
-    REQUIRES
-        rb_gpio_driver
+    PRIV_REQUIRES
+        rb_soc
 )

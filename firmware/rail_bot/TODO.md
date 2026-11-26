@@ -1,0 +1,2 @@
+- [ ] reorganize files following the new file structure in README.md
+- [ ] fix the issue of unused pins having a considerably wasteful output voltage: configure them in `components/rb_bsp/rb_bsp_init.c`

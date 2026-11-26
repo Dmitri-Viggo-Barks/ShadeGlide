@@ -1,4 +1,4 @@
-#include "esp32c3_gpio_regs.h"
+#include "rb_esp32c3_gpio_regs.h"
 #include "rb_gpio_driver.h"
 
 #include <stdint.h>

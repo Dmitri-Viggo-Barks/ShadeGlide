@@ -41,71 +41,81 @@ The dropdown below shows the planned structure of the codebase.
 	<summary>File Structure</summary>
 
 ```
-					rail-bot/
-					│
-					├── main/
-					│	│
-					│	├── main.c
-					│	│
-					│	├── bot-controller.c
-					│	├── bot-controller.h
-					│	│
-					│	└── CMakeLists.txt
-					│
-					├── components/
-					│	│	
-					│	├── rb_bsp/
-					│	│	│
-					│	│	├── rb_config.h
-					│	│	│
-					│	│	├── esp32c3_gpio_regs.h
-					│	│	├── esp32c3_i2c_regs.h
-					│	│	│
-					│	│	├── status_indicator.c
-					│	│	├── status_indicator.h
-					│	│	│
-					│	│	└── CMakeLists.txt
-					│	│
-					│	├── rb_drivers/
-					│	│	│
-					│	│	├── rb_gpio_driver/
-					│	│	│	│
-					│	│	│	├── rb_gpio_driver.c
-					│	│	│	├── rb_gpio_driver.h
-					│	│	│	│
-					│	│	│	└── CMakeLists.txt
-					│	│	│
-					│	│	├── rb_i2c_driver/
-					│	│	│	│
-					│	│	│	├── rb_i2c_driver.c
-					│	│	│	├── rb_i2c_driver.h
-					│	│	│	│
-					│	│	│	└── CMakeLists.txt
-					│	│	│
-					│	│	├── rb_motor_driver/
-					│	│	│	│
-					│	│	│	├── rb_motor_driver.c
-					│	│	│	├── rb_motor_driver.h
-					│	│	│	│
-					│	│	│	└── CMakeLists.txt
-					│	│	│
-					│	│	└── rb_vl53l0x_driver/
-					│	│		│
-					│	│		├── rb_vl53l0x_driver.c
-					│	│		├── rb_vl53l0x_driver.h
-					│	│		│
-					│	│		└── CMakeLists.txt
-					│	│
-					│	└── rb_services/
-					│		│
-					│		└── rb_ble_comms/
-					│			│
-					│			├── rb_ble_comms.c
-					│			├── rb_ble_comms.h
-					│			│
-					│			└── CMakeLists.txt
-					│
-					└── CMakeLists.txt
+			rail-bot/
+			│
+			├── main/
+			│	│
+			│	├── main.c
+			│	│
+			│	├── bot-controller.c
+			│	├── bot-controller.h
+			│	│
+			│	└── CMakeLists.txt
+			│
+			├── components/
+			│	│	
+			│	├── rb_bsp/
+			│	│	│
+			│	│	├── rb_config.h
+			│	│	│
+			│	│	├── rb_bsp_init.c
+			│	│	├── rb_bsp_init.h
+			│	│	│
+			│	│	├── esp32c3_gpio_regs.h
+			│	│	├── esp32c3_i2c_regs.h
+			│	│	│
+			│	│	├── status_indicator.c
+			│	│	├── status_indicator.h
+			│	│	│
+			│	│	└── CMakeLists.txt
+			│	│
+			│	├── rb_drivers/
+			│	│	│
+			│	│	├── rb_gpio_driver/
+			│	│	│	│
+			│	│	│	├── rb_gpio_driver.c
+			│	│	│	├── rb_gpio_driver.h
+			│	│	│	│
+			│	│	│	└── CMakeLists.txt
+			│	│	│
+			│	│	├── rb_i2c_driver/
+			│	│	│	│
+			│	│	│	├── rb_i2c_driver.c
+			│	│	│	├── rb_i2c_driver.h
+			│	│	│	│
+			│	│	│	└── CMakeLists.txt
+			│	│	│
+			│	│	├── rb_motor_driver/
+			│	│	│	│
+			│	│	│	├── rb_motor_driver.c
+			│	│	│	├── rb_motor_driver.h
+			│	│	│	│
+			│	│	│	└── CMakeLists.txt
+			│	│	│
+			│	│	└── rb_vl53l0x_driver/
+			│	│		│
+			│	│		├── rb_vl53l0x_driver.c
+			│	│		├── rb_vl53l0x_driver.h
+			│	│		│
+			│	│		└── CMakeLists.txt
+			│	│
+			│	├── rb_services/
+			│	│	│
+			│	│	└── rb_ble_comms/
+			│	│		│
+			│	│		├── rb_ble_comms.c
+			│	│		├── rb_ble_comms.h
+			│	│		│
+			│	│		└── CMakeLists.txt
+			│	│
+			│	└── rb_soc/
+			│		│
+			│		├── esp32c3_gpio_regs.h
+			│		├── esp32c3_i2c_regs.h
+			│		│
+			│		└── CMakeLists.txt
+			│
+			└── CMakeLists.txt
 ```
 </details>
 
