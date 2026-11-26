@@ -5,13 +5,13 @@
 #include <stdint.h>
 
 typedef enum {
-	GPIO_INPUT,
-	GPIO_OUTPUT
+	RB_GPIO_INPUT,
+	RB_GPIO_OUTPUT
 } rb_gpio_direction_t;
 
 typedef enum {
-	GPIO_HIGH,
-	GPIO_LOW
+	RB_GPIO_HIGH = 1,
+	RB_GPIO_LOW = 0
 } rb_gpio_level_t;
 
 

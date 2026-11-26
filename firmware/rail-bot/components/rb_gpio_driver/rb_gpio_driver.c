@@ -35,13 +35,13 @@ void rb_gpio_set_direction(uint8_t gpio_num, rb_gpio_direction_t direction) {
 
 	gpio_select_gpio_func(gpio_num);
 
-	if (direction == GPIO_OUTPUT){
+	if (direction == RB_GPIO_OUTPUT){
 		GPIO_FUNCn_OUT_SEL_CFG_REG(gpio_num) |= GPIO_MATRIX_SIMPLE_GPIO_OUT_PERI;
 		GPIO_FUNCn_OUT_SEL_CFG_REG(gpio_num) |= GPIO_FUNC_OEN_SEL_MASK;
 
 		GPIO_ENABLE_W1TS_REG = (GPIO_ENABLE_W1TS_REG_VAL << gpio_num);
 	}
-	else if (direction == GPIO_INPUT){
+	else if (direction == RB_GPIO_INPUT){
 		IO_MUX_GPIOn_REG(gpio_num) |= IO_MUX_GPIO_FUN_IE_MASK;
 
 		GPIO_ENABLE_W1TC_REG = (GPIO_ENABLE_W1TC_REG_VAL << gpio_num);
@@ -53,10 +53,10 @@ void rb_gpio_set_level(uint8_t gpio_num, rb_gpio_level_t level){
 		return;
 	}
 
-	if (level == GPIO_HIGH){
+	if (level == RB_GPIO_HIGH){
 		GPIO_OUT_W1TS_REG = (GPIO_OUT_W1TS_VAL << gpio_num);
 	}
-	else if (level == GPIO_LOW){
+	else if (level == RB_GPIO_LOW){
 		GPIO_OUT_W1TC_REG = (GPIO_OUT_W1TC_VAL << gpio_num);
 	}
 }
@@ -74,8 +74,8 @@ rb_gpio_level_t rb_gpio_get_level(uint8_t gpio_num){
 	}
 
 	if ((GPIO_IN_REG >> gpio_num) & 1U){
-		return GPIO_HIGH;
+		return RB_GPIO_HIGH;
 	}
 
-	return GPIO_LOW;
+	return RB_GPIO_LOW;
 }
