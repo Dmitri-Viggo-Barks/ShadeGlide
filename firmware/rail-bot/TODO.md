@@ -1,0 +1,2 @@
+- [ ] reorganize files following the new file structure in README.md
+- [ ] fix the issue of unused pins having a considerably wasteful output voltage
