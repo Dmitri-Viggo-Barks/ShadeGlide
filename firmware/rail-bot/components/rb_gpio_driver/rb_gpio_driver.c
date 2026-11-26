@@ -42,10 +42,12 @@ void rb_gpio_set_direction(uint8_t gpio_num, rb_gpio_direction_t direction) {
 		GPIO_ENABLE_W1TS_REG = (GPIO_ENABLE_W1TS_REG_VAL << gpio_num);
 	}
 	else if (direction == RB_GPIO_INPUT){
-		IO_MUX_GPIOn_REG(gpio_num) |= IO_MUX_GPIO_FUN_IE_MASK;
-
 		GPIO_ENABLE_W1TC_REG = (GPIO_ENABLE_W1TC_REG_VAL << gpio_num);
+		GPIO_FUNCn_OUT_SEL_CFG_REG(gpio_num) &= ~GPIO_FUNC_OUT_SEL_MASK;
 	}
+
+	IO_MUX_GPIOn_REG(gpio_num) |= IO_MUX_GPIO_FUN_IE_MASK;
+
 }
 
 void rb_gpio_set_level(uint8_t gpio_num, rb_gpio_level_t level){
