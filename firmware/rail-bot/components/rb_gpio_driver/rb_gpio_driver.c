@@ -70,7 +70,7 @@ output voltage output reading is needed, have
 
 rb_gpio_level_t rb_gpio_get_level(uint8_t gpio_num){
 	if (gpio_num >= GPIO_PIN_COUNT){
-		return NULL; // honestly idk what to put so NULL it is :P
+		return RB_GPIO_LOW;		// temporary fall back, find a way to use a better checking method
 	}
 
 	if ((GPIO_IN_REG >> gpio_num) & 1U){
