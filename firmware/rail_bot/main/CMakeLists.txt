@@ -1,15 +1,19 @@
 idf_component_register(
     SRCS 
         "main.c"
-        # VV add the files l8r one VV
-        # "gpio-driver.c"
-        # "i2c-driver.c"
-        # "motor-driver.c"
-        # "status-indicator.c"
-        # "vl53l0x-driver.c"
-        # "ble-comms.c"
-        # "bot-controller.c"
+        # "bot_controller.c"
     
     INCLUDE_DIRS 
         "."
+    
+    REQUIRES
+        # rb_bsp
+        rb_gpio_driver
+        # rb_i2c_driver
+        # rb_motor_driver
+        # rb_vl53l0x_driver
+        # rb_ble_comms
+
+    PRIV_REQUIRES
+        rb_bsp
 )

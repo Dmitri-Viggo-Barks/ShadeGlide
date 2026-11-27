@@ -5,5 +5,18 @@
 
 cmake_minimum_required(VERSION 3.22)
 
+set(EXTRA_COMPONENT_DIRS
+	# "component/rb_bsp"
+	
+	"components/rb_drivers/rb_gpio_driver"
+	# "components/rb_drivers/rb_i2c_driver"
+	# "components/rb_drivers/rb_motor_driver"
+	# "components/rb_drivers/rb_vl53l0x_driver"
+	
+	# "components/rb_services/rb_ble_comms"
+
+	"components/rb_soc"
+)
+
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(rail_bot)
