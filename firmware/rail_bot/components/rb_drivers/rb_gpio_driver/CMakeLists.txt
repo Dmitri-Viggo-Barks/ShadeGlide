@@ -7,4 +7,5 @@ idf_component_register(
     
     PRIV_REQUIRES
         rb_soc
+        rb_bsp
 )

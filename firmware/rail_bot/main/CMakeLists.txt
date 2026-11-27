@@ -13,4 +13,7 @@ idf_component_register(
         # rb_motor_driver
         # rb_vl53l0x_driver
         # rb_ble_comms
+
+    PRIV_REQUIRES
+        rb_bsp
 )

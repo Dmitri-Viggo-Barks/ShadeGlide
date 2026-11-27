@@ -9,8 +9,8 @@ Sections: add "TODO" if not configured, add "COMMENT" if comments are in it
 7. Application Config   ----    ----    TODO
 */
 
-#ifndef BOT_CONFIG_H
-#define BOT_CONFIG_H
+#ifndef RB_CONFIG_H
+#define RB_CONFIG_H
 
 // Hardware Config
 #define BOT_I2C_SDA_GPIO					4
