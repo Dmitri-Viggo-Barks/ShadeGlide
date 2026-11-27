@@ -1,5 +1,5 @@
-#ifndef ESP32C3_GPIO_REGS_H
-#define ESP32C3_GPIO_REGS_H
+#ifndef RB_ESP32C3_GPIO_REGS_H
+#define RB_ESP32C3_GPIO_REGS_H
 
 #include <stdint.h>
 
