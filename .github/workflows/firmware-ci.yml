@@ -5,12 +5,12 @@ name: Firmware CI
 on:
   push:
     paths:
-      - 'firmware/rail-bot/**'
+      - 'firmware/rail_bot/**'
       - '.github/workflows/firmware-ci.yml'
 
   pull_request:
     paths:
-      - 'firmware/rail-bot/**'
+      - 'firmware/rail_bot/**'
       - '.github/workflows/firmware-ci.yml'
 
   workflow_dispatch:
