@@ -76,52 +76,52 @@ Charge the battery only after the <strong>Physical Inspection</strong> and <stro
 
 Proceed to the next tests only after the board passes the `Physical Inspection` test. Connect the board to a controlled power supply. Set voltage input as expected voltage output from battery, and set current limit to 300mA as the first test is done under no load. Leave the output terminals disconnected. Positive terminal (power supply) connects to VIN (board), Negative terminal (power supply) connects to GND (board).
 
-- [ ] No-Load and PS off Voltage Output
-    - [ ] Voltage-output is expected, ~3.3V
+- [X] No-Load and PS off Voltage Output
+    - [X] Voltage-output is expected, ~3.3V
 
-- [ ] No-Load and PS off Behavior
-    - [ ] No unusual heating or brightening of components
-    - [ ] No unusual sounds
+- [X] No-Load and PS off Behavior
+    - [X] No unusual heating or brightening of components
+    - [X] No unusual sounds
 
 <br/>
 
 Proceed to the next tests only after the board passes the `No-Load Voltage Output` test. Connect the outputs of the board to a load. For simplicity, use a resistor with a resistance $R$ that is close and above $R_m = \frac{v^2}{P} = \frac{3.7^2}{P}$ as the load. Refer to the resistor's data sheet or do a physical inspection to determine its rated wattage $P$.
 
-- [ ] Loaded and PS off Voltage Output
-    - [ ] Voltage-output is expected, ~3.3V
+- [X] Loaded and PS off Voltage Output
+    - [X] Voltage-output is expected, ~3.3V
 
-- [ ] Loaded and PS off Behavior
-    - [ ] No unusual heating or brightening of components
-    - [ ] No unusual sounds
+- [X] Loaded and PS off Behavior
+    - [X] No unusual heating or brightening of components
+    - [X] No unusual sounds
 
 <br/>
 
-- [ ] Operation Behavior
-    - [ ] Voltage-output is expected at input voltage ranging from the board's minimum voltage input rating until 3.7V
-    - [ ] Voltage-output is expected at input voltage ranging from 3.7V until safely close to the board's maximum voltage input rating <strong><br/>(DO NOT EXCEED THE RATED MAXIMUM, IT IS ADVISED TO TEST UNTIL SAFELY CLOSE TO IT TO AVOID DAMAGING THE BOARD)</strong>
+- [X] Operation Behavior
+    - [X] Voltage-output is expected at input voltage ranging from the board's minimum voltage input rating until 3.7V
+    - [X] Voltage-output is expected at input voltage ranging from 3.7V until safely close to the board's maximum voltage input rating <strong><br/>(DO NOT EXCEED THE RATED MAXIMUM, IT IS ADVISED TO TEST UNTIL SAFELY CLOSE TO IT TO AVOID DAMAGING THE BOARD)</strong>
 
 <br/>
 
 <i> (This project does not use the Power-save Mode the board provides, hence the next four tests are optional until the said mode will be used) </i> <br/>
 Before proceeding to the next four tests: disconnect the board from the power supply, temporarily bridge the PS pad in the board, then reconnect the power supply back to the board. Disconnect any load from the board before proceeding.
 
-- [ ] No-Load and PS ON Voltage Output
-    - [ ] Voltage-output is expected, ~3.3V
+- [X] No-Load and PS ON Voltage Output
+    - [X] Voltage-output is expected, ~3.4V
 
-- [ ] No-Load and PS ON Behavior
-    - [ ] No unusual heating or brightening of components
-    - [ ] No unusual sounds
+- [X] No-Load and PS ON Behavior
+    - [X] No unusual heating or brightening of components
+    - [X] No unusual sounds
 
 <br/>
 
 Connect the outputs of the board to a low-load, low-load in this case makes it so the output current of the board does not exceed 100mA. For simplicity, use a resistor with a resistance $R$ that is close and above $R_m = \frac{v^2}{P} = \frac{3.7^2}{P}$ as the load, but makes $I < 0.1$ when $R$ is plugged in $I = \frac{v}{R}$. Refer to the resistor's data sheet or do a physical inspection to determine its rated wattage $P$
 
-- [ ] Loaded and PS ON Voltage Output
-    - [ ] Voltage-output is expected, ~3.3V
+- [X] Loaded and PS ON Voltage Output
+    - [X] Voltage-output is expected, ~3.4V
 
-- [ ] Loaded and PS ON Behavior
-    - [ ] No unusual heating or brightening of components
-    - [ ] No unusual sounds
+- [X] Loaded and PS ON Behavior
+    - [X] No unusual heating or brightening of components
+    - [X] No unusual sounds
 
 <br/>
 
@@ -133,40 +133,32 @@ Connect the outputs of the board to a low-load, low-load in this case makes it s
 
 
 ## Motor Buck-Boost Converter: B6284o Adjustable Output BBC Module
-- [ ] Physical Inspection
-    - [ ] No dents or damage
-    - [ ] No unintended or expected solder bridges
-    - [ ] If pins are soldered, no bent pins
-    - [ ] All pins match documented pins
-    - [ ] No unusual connections to pins and components on the board
+- [X] Physical Inspection
+    - [X] No dents or damage
+    - [X] No unintended or expected solder bridges
+    - [X] If pins are soldered, no bent pins
+    - [X] All pins match documented pins
+    - [X] No unusual connections to pins and components on the board
 
 <br/>
 
 Proceed to the next tests only after the board passes the `Physical Inspection` test. Connect the board to a controlled power supply. Set voltage input as expected voltage output from battery, and set current limit to 300mA as the first test is done under no load. Leave the output terminals disconnected. Positive terminal (power supply) connects to IN+ (board), Negative terminal (power supply) connects to IN- (board). Connect EN to IN+
 
-- [ ] No-Load and PS off Voltage Output
-    - [ ] Voltage-output is expected
-
-- [ ] No-Load and PS off Behavior
-    - [ ] No unusual heating or brightening of components
-    - [ ] No unusual sounds
+- [X] No-Load Voltage Output
+    - [X] Voltage-output is expected
 
 <br/>
 
 Proceed to the next tests only after the board passes the `No-Load Voltage Output` test. Connect the outputs of the board to a load. For simplicity, use a resistor with a resistance $R$ that is close and above $R_m = \frac{v^2}{P} = \frac{3.7^2}{P}$ as the load. Refer to the resistor's data sheet or do a physical inspection to determine its rated wattage $P$.
 
-- [ ] Loaded Voltage Output
-    - [ ] Voltage-output is expected
-
-- [ ] Loaded and PS off Behavior
-    - [ ] No unusual heating or brightening of components
-    - [ ] No unusual sounds
+- [X] Loaded Voltage Output
+    - [X] Voltage-output is expected
 
 <br/>
 
-- [ ] Operation Behavior
-    - [ ] Voltage-output is expected at input voltage ranging from the board's minimum voltage input rating until 3.7V
-    - [ ] Voltage-output is expected at input voltage ranging from 3.7V until safely close to the board's maximum voltage input rating <strong><br/>(DO NOT EXCEED THE RATED MAXIMUM, IT IS ADVISED TO TEST UNTIL SAFELY CLOSE TO IT TO AVOID DAMAGING THE BOARD)</strong>
+- [X] Operation Behavior
+    - [X] Voltage-output is expected at input voltage ranging from the board's minimum voltage input rating until 3.7V
+    - [X] Voltage-output is expected at input voltage ranging from 3.7V until safely close to the board's maximum voltage input rating <strong><br/>(DO NOT EXCEED THE RATED MAXIMUM, IT IS ADVISED TO TEST UNTIL SAFELY CLOSE TO IT TO AVOID DAMAGING THE BOARD)</strong>
 
 <br/>
 
@@ -327,23 +319,23 @@ Flash and run a test program on an MCU that iterates over the different motor co
 
 Proceed to the next tests only after the board passes the `Physical Inspection` test. Apply the rated power for the component for the next tests. One terminal positive, the other GND.
 
-- [ ] Expected Power-Applied Behavior, Case 1
-    - [ ] The motor rotates
-    - [ ] The rotation is smooth
-    - [ ] No unusual grinding noises
-    - [ ] The rotation is consistent
-    - [ ] Not unusually hot
+- [x] Expected Power-Applied Behavior, Case 1
+    - [x] The motor rotates
+    - [x] The rotation is smooth
+    - [x] No unusual grinding noises
+    - [x] The rotation is consistent
+    - [x] Not unusually hot
 
 <br/>
 
 Reverse the connections, the previously GND connected terminal now connects to positive, reverse the other the same way.
 
-- [ ] Expected Power-Applied Behavior, Case 2
-    - [ ] The motor rotates
-    - [ ] The rotation is smooth
-    - [ ] No unusual grinding noises
-    - [ ] The rotation is consistent
-    - [ ] Not unusually hot
+- [x] Expected Power-Applied Behavior, Case 2
+    - [x] The motor rotates
+    - [x] The rotation is smooth
+    - [x] No unusual grinding noises
+    - [x] The rotation is consistent
+    - [x] Not unusually hot
 
 <br/>
 
@@ -360,16 +352,16 @@ Reverse the connections, the previously GND connected terminal now connects to p
 
 
 ## Status LED: Through-Hole LED
-- [ ] Physical Inspection
-    - [ ] No dents or damage
-    - [ ] Both terminals are intact
+- [x] Physical Inspection
+    - [x] No dents or damage
+    - [x] Both terminals are intact
 
 <br/>
 
 Proceed to the next tests only after the board passes the `Physical Inspection` test. Connect a resistor with with a resistance $R$ that is close and above $R_m = \frac{v^2}{P} = \frac{3.7^2}{P}$ to a power supply that outputs the LED's rated voltage input. Refer to the resistor's data sheet or do a physical inspection to determine its rated wattage $P$. Connect the LED in series with the resistor.
 
-- [ ] Operating behavior
-    - [ ] LED lights up expectedly
+- [x] Operating behavior
+    - [x] LED lights up expectedly
 
 <br/>
 
